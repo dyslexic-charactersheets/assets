@@ -1,0 +1,711 @@
+{
+    "game": "dnd35",
+    "name": "Dungeons & Dragons 3.5",
+
+    "skills": [
+        { "name": "Appraise", "ability": "INT", "useUntrained": true, "noRage": true },
+        { "name": "Autohypnosis", "ability": "WIS", "useUntrained": true },
+        { "name": "Balance", "ability": "DEX", "useUntrained": true, "acp": true },
+        { "name": "Bluff", "ability": "CHA", "useUntrained": true, "noRage": true },
+        { "name": "Climb", "ability": "STR", "useUntrained": true, "acp": true },
+        { "name": "Concentration", "ability": "CON", "useUntrained": true, "noRage": true },
+        { "name": "Decipher Script", "ability": "INT", "noRage": true },
+        { "name": "Diplomacy", "ability": "CHA", "useUntrained": true, "noRage": true },
+        { "name": "Disable Device", "ability": "INT", "noRage": true },
+        { "name": "Disguise", "ability": "CHA", "useUntrained": true, "noRage": true },
+        { "name": "Escape Artist", "ability": "DEX", "useUntrained": true, "acp": true },
+        { "name": "Forgery", "ability": "INT", "useUntrained": true, "noRage": true },
+        { "name": "Gather Information", "ability": "CHA", "useUntrained": true, "noRage": true },
+        { "name": "Handle Animal", "ability": "CHA", "noRage": true },
+        { "name": "Heal", "ability": "WIS", "useUntrained": true },
+        { "name": "Hide", "ability": "DEX", "useUntrained": true, "acp": true, "noRage": true },
+        { "name": "Intimidate", "ability": "CHA", "useUntrained": true },
+        { "name": "Jump", "ability": "STR", "useUntrained": true, "acp": true },
+        { "name": "Listen", "ability": "WIS", "useUntrained": true },
+        { "name": "Move Silently", "ability": "DEX", "useUntrained": true, "acp": true, "noRage": true },
+        { "name": "Open Lock", "ability": "DEX", "noRage": true },
+        { "name": "Psicraft", "ability": "INT", "noRage": true },
+        { "name": "Ride", "ability": "DEX", "useUntrained": true },
+        { "name": "Search", "ability": "INT", "useUntrained": true },
+        { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
+        { "name": "Sleight of Hand", "ability": "DEX", "acp": true, "noRage": true },
+        { "name": "Spellcraft", "ability": "INT", "noRage": true },
+        { "name": "Spot", "ability": "WIS", "useUntrained": true },
+        { "name": "Survival", "ability": "WIS", "useUntrained": true },
+            { "name": "Track", "subSkillOf": "Survival", "optional": true },
+        { "name": "Swim", "ability": "STR", "useUntrained": true, "acp": true },
+        { "name": "Tumble", "ability": "DEX", "noRage": true, "acp": true },
+        { "name": "Use Magic Device", "ability": "CHA", "noRage": true },
+        { "name": "Use Rope", "ability": "DEX", "useUntrained": true, "noRage": true },
+
+        { "name": "Knowledge (arcana)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (dungeoneering)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (engineering)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (geography)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (history)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (local)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (nature)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (nobility)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (religion)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (planes)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Knowledge (psionics)", "ability": "INT", "noRage": true, "afterFold": true },
+
+        { "name": "Control Shape", "ability": "WIS" },
+        { "name": "Iaijutsu Focus", "ability": "CHA" },
+        { "name": "Martial Lore", "ability": "INT"},
+        { "name": "Scry", "ability": "INT" },
+        { "name": "Truespeak", "ability": "INT" },
+
+        { "name": "Knowledge (aeronautics)", "ability": "INT", "noRage": true, "afterTheFold": "true" }
+    ],
+
+    "coreSkills": [
+        "Appraise", "Balance", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Disable Device", "Disguise", 
+        "Escape Artist", "Forgery", "Gather Information", "Handle Animal", "Heal", "Hide", "Intimidate", 
+        "Jump", "Listen", "Move Silently", "Open Lock", "Ride", "Search", "Sense Motive", "Sleight of Hand", 
+        "Spellcraft", "Spot", "Survival", "Swim", "Tumble", "Use Magic Device", "Use Rope"
+    ],
+
+    "summarySkills": [
+        "Appraise", "Balance", "Climb", "Decipher Script", "Diplomacy", "Disguise", 
+        "Escape Artist", "Gather Information", "Handle Animal", "Heal", "Hide", "Intimidate", 
+        "Listen", "Move Silently", "Ride", "Sense Motive", "Sleight of Hand", 
+        "Spellcraft", "Spot", "Survival", "Swim", "Tumble", "Use Magic Device"
+    ],
+
+    "knowledgeSkills": [
+        "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", 
+        "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", 
+        "Knowledge (planes)", "Knowledge (psionics)"
+    ],
+
+    "animalSkills": [
+        "Balance", "Climb", "Escape Artist", "Hide", "Jump", "Listen", "Move Silently", "Search", "Sense Motive",
+        "Spot", "Survival", "Track", "Swim"
+    ],
+
+    "pages": [
+        { "file": "Core/Character Info - simple.pdf", "slot": "core", "variant": "simple", "name": "simplified", "position": 15 },
+        { "file": "Core/Combat.pdf - simple", "slot": "combat", "variant": "simple", "name": "simplified", "position": 16 },
+
+        { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
+        { "file": "Core/Character Info - More.pdf", "slot": "core", "variant": "more", "name": "Character Info (more classes)" },
+        { "file": "Core/Extended Combat.pdf", "slot": "combat", "name": "Combat" },
+
+        { "file": "Core/Inventory.pdf", "slot": "inventory", "name": "Inventory", "position": 53 },
+        { "file": "Core/Inventory.pdf", "slot": "inventory", "variant": "with", "name": "with accessories", "position": 53 },
+        { "file": "Core/Inventory without.pdf", "slot": "inventory", "variant": "without", "name": "without accessories", "position": 53 },
+
+        { "file": "Psionics/Psionic Combat.pdf", "slot": "combat", "variant": "psionic", "name": "Psionic Combat", "position": 16 },
+        { "file": "Psionics/Psionic Inventory.pdf", "slot": "inventory", "variant": "psionic", "name": "Psionic Inventory", "position": 83 },
+
+        { "file": "Barbarian/Character Info.pdf", "slot": "core", "variant": "barbarian", "name": "Barbarian", "position": 15 },
+            { "file": "Barbarian/Combat.pdf", "slot": "combat", "variant": "barbarian", "name": "Barbarian", "position": 16 },
+        { "file": "Core/Bard.pdf", "slot": "bard", "name": "Bard" },
+        { "file": "Core/Cleric.pdf", "slot": "cleric", "name": "Cleric" },
+        { "file": "Core/Druid.pdf", "slot": "druid", "name": "Druid" },
+            { "file": "Core/Wild Shape.pdf", "slot": "wildshape", "name": "Wild Shape", "position": 90 },
+        { "file": "Core/Monk.pdf", "slot": "monk", "name": "Monk" },
+        { "file": "Core/Paladin.pdf", "slot": "paladin", "name": "Paladin" },
+        { "file": "Core/Ranger.pdf", "slot": "ranger", "name": "Ranger" },
+        { "file": "Core/Sorcerer.pdf", "slot": "sorcerer", "name": "Sorcerer" },
+            { "file": "Variants/Sorcerer + Metamagic.pdf", "slot": "sorcerer", "variant": "metamagic", "name": "Metamagic Specialist" },
+        { "file": "Core/Wizard.pdf", "slot": "wizard", "name": "Wizard" },
+            { "file": "Variants/Focused Specialist Wizard.pdf", "slot": "wizard", "variant": "focus", "name": "Focused Specialist"},
+
+        { "file": "Extended/Beguiler.pdf", "slot": "beguiler", "name": "Beguiler" },
+        { "file": "Extended/Dragon Shaman.pdf", "slot": "dragonshaman", "name": "Dragon Shaman" },
+        { "file": "Extended/Duskblade.pdf", "slot": "duskblade", "name": "Duskblade" },
+        { "file": "Extended/Ninja.pdf", "slot": "ninja", "name": "Ninja" },
+        { "file": "Extended/Spellthief.pdf", "slot": "spellthief", "name": "Spellthief" },
+        { "file": "Extended/Scout.pdf", "slot": "scout", "name": "Scout" },
+        { "file": "Extended/Warlock.pdf", "slot": "warlock", "name": "Warock" },
+        { "file": "Extended/Warmage.pdf", "slot": "warmage", "name": "Warmage" },
+        { "file": "Extended/Wu Jen.pdf", "slot": "wujen", "name": "Wu Jen" },
+        { "file": "Extended/Favoured Soul.pdf", "slot": "favouredsoul", "name": "Favoured Soul" },
+        { "file": "Extended/Shugenja.pdf", "slot": "shugenja", "name": "Shugenja" },
+        { "file": "Extended/Spirit Shaman.pdf", "slot": "spiritshaman", "name": "Spirit Shaman" },
+        { "file": "Psionics/Ardent.pdf", "slot": "ardent", "name": "Ardent" },
+        { "file": "Psionics/Divine Mind.pdf", "slot": "divinemind", "name": "Divine Mind" },
+        { "file": "Psionics/Lurk.pdf", "slot": "lurk", "name": "Lurk" },
+        { "file": "Extended/Hexblade.pdf", "slot": "hexblade", "name": "Hexblade" },
+        { "file": "Dragon Compendium/Battle Dancer.pdf", "slot": "battledancer", "name": "Battle Dancer" },
+        { "file": "Dragon Compendium/Death Master.pdf", "slot": "deathmaster", "name": "Death Master" },
+        { "file": "Dragon Compendium/Jester.pdf", "slot": "jester", "name": "Jester" },
+        { "file": "Dragon Compendium/Mountebank.pdf", "slot": "mountebank", "name": "Mountebank" },
+        { "file": "Dragon Compendium/Savant.pdf", "slot": "savant", "name": "Savant" },
+        { "file": "Dragon Compendium/Sha'ir.pdf", "slot": "shair", "name": "Sha'ir" },
+        { "file": "Dragon Compendium/Urban Druid.pdf", "slot": "urbandruid", "name": "Urban Druid" },
+        { "file": "Extended/Dragonfire Adept.pdf", "slot": "dragonfireadept", "name": "Dragonfire Adept" },
+        { "file": "Extended/Factotum.pdf", "slot": "factotum", "name": "Factotum" },
+        { "file": "Extended/Artificer.pdf", "slot": "artificer", "name": "Artificer" },
+        { "file": "Extended/Archivist.pdf", "slot": "archivist", "name": "Archivist" },
+        { "file": "Extended/Dread Necromancer.pdf", "slot": "dreadnecromancer", "name": "Dread Necromancer" },
+        { "file": "Incarnum/Incarnate.pdf", "slot": "incarnate", "name": "Incarnate" },
+        { "file": "Incarnum/Soulborn.pdf", "slot": "soulborn", "name": "Soulborn" },
+        { "file": "Incarnum/Totemist.pdf", "slot": "totemist", "name": "Totemist" },
+        { "file": "Psionics/Psion.pdf", "slot": "psion", "name": "Psion" },
+        { "file": "Psionics/Psychic Warrior.pdf", "slot": "psychicwarrior", "name": "Psychic Warrior" },
+        { "file": "Psionics/Soulknife.pdf", "slot": "soulknife", "name": "Soulknife" },
+        { "file": "Psionics/Wilder.pdf", "slot": "wilder", "name": "Wilder" },
+        { "file": "Tomes/Crusader.pdf", "slot": "crusader", "name": "Crusader" },
+        { "file": "Tomes/Swordsage.pdf", "slot": "swordsage", "name": "Swordsage" },
+        { "file": "Tomes/Warblade.pdf", "slot": "warblade", "name": "Warblade" },
+        { "file": "Tomes/Blank Tome of Battle.pdf", "slot": "martialadept", "name": "Blank Martial Adept" },
+        { "file": "Tomes/Binder.pdf", "slot": "binder", "name": "Binder" },
+        { "file": "Tomes/Binder (More Vestiges).pdf", "slot": "vestiges", "name": "Vestiges" },
+        { "file": "Tomes/Shadowcaster.pdf", "slot": "shadowcaster", "name": "Shadowcaster" },
+        { "file": "Tomes/Truenamer.pdf", "slot": "truenamer", "name": "Truenamer" },
+        
+        { "file": "Extended/Extended Cleric.pdf", "slot": "cleric", "variant": "extended", "name": "Extended Cleric", "position": 26 },
+        { "file": "Extended/Extended Paladin.pdf", "slot": "paladin", "variant": "extended", "name": "Extended Paladin", "position": 30 },
+        { "file": "Extended/Blank Spellcaster.pdf", "slot": "caster", "variant": "spontaneous", "name": "Spontaneous Caster" },
+        { "file": "Extended/Blank Spellcaster 2.pdf", "slot": "caster", "variant": "vancian", "name": "Vancian Caster" },
+        { "file": "Extended/Blank Spellcaster 3.pdf", "slot": "caster", "variant": "lesser", "name": "Lesser Caster" },
+
+        { "file": "Extra/Character Background.pdf", "slot": "background", "name": "Character Background" },
+        { "file": "Extra/Lycanthrope.pdf", "slot": "lycanthrope", "name": "Lycanthrope", "a5": true },
+        { "file": "Core/Party Funds.pdf", "slot": "partyfunds", "name": "Party Funds" },
+
+        { "file": "Core/Spell Book.pdf", "slot": "spellbook", "name": "Spellbook" },
+        { "file": "Core/Spell Book (Large).pdf", "slot": "spellbook", "variant": "large", "name": "Large" },
+        { "file": "Core/Spell Book (Dense).pdf", "slot": "spellbook", "variant": "small", "name": "Small" },
+
+        { "file": "Extra/Mini (Small).pdf", "slot": "mini", "variant": "small", "name": "Mini (Small)" },
+        { "file": "Extra/Mini (Medium).pdf", "slot": "mini", "variant": "medium", "name": "Mini (Medium)" },
+        { "file": "Extra/Mini (Large).pdf", "slot": "mini", "variant": "large", "name": "Mini (Large)" },
+        { "file": "Extra/Mini (Small).pdf", "slot": "mini-animal", "variant": "small", "name": "Animal Companion Mini (Small)" },
+        { "file": "Extra/Mini (Medium).pdf", "slot": "mini-animal", "variant": "medium", "name": "Animal Companion Mini (Medium)" },
+        { "file": "Extra/Mini (Large).pdf", "slot": "mini-animal", "variant": "large", "name": "Animal Companion Mini (Large)" },
+
+        { "file": "Core/Animal Companion.pdf", "slot": "animalcompanion", "name": "Animal Companion", "a5": true },
+        { "file": "Psionics/Psicrystal.pdf", "slot": "psicrystal", "name": "Psicrystal", "a5": true }
+    ],
+
+    "gm": {
+        "characters": [
+            { "file": "DM/Party 4.pdf", "name": "Party", "slot": "party", "variant": "4" },
+            { "file": "DM/Party 5.pdf", "name": "Party", "slot": "party", "variant": "5" },
+            { "file": "DM/Party 6.pdf", "name": "Party", "slot": "party", "variant": "6" },
+            { "file": "DM/Party 7.pdf", "name": "Party", "slot": "party", "variant": "7" },
+            { "file": "DM/Party 8.pdf", "name": "Party", "slot": "party", "variant": "8" },
+            { "file": "DM/Party 9.pdf", "name": "Party", "slot": "party", "variant": "9" },
+            { "file": "DM/Party 10.pdf", "name": "Party", "slot": "party", "variant": "10" },
+            { "file": "DM/NPC.pdf", "name": "NPC", "slot": "npc" },
+            { "file": "DM/NPC Group.pdf", "name": "NPC Group", "slot": "npc-group" }
+        ],
+        "campaign": [
+            { "file": "GM/Timeline (Portrait).pdf", "name": "Timeline (Portrait)" },
+            { "file": "GM/Timeline (Portrait - continued).pdf", "name": "Timeline (Portrait - continued)" },
+            { "file": "GM/Timeline (Landscape).pdf", "name": "Timeline (Landscape)" },
+            { "file": "GM/Timeline (Landscape - continued).pdf", "name": "Timeline (Landscape - continued)" },
+            { "file": "GM/Notes.pdf", "name": "Notes" }
+        ],
+        "maps": {
+            "2d": [
+                { "file": "GM/Maps/2D/Raster/Hex A3.pdf", "name": "Map - Hex A3 Portrait", "slot": "hex-a3" },
+                { "file": "GM/Maps/2D/Raster/Hex A4.pdf", "name": "Map - Hex A4 Portrait", "slot": "hex-a4" },
+                { "file": "GM/Maps/2D/Raster/Hex A4 Landscape.pdf", "name": "Map - Hex A4 Landscape", "slot": "hex-a4-landscape" },
+                { "file": "GM/Maps/2D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5" },
+                { "file": "GM/Maps/2D/Raster/Isometric A4.pdf", "name": "Map - Isometric Grid A4 Portrait", "slot": "iso-a4" },
+                { "file": "GM/Maps/2D/Raster/Square A4.pdf", "name": "Map - Square Grid A4 Portrait", "slot": "grid-a4" }
+            ],
+            "3d": [
+                { "file": "GM/Maps/3D/Raster/Hex A3.pdf", "name": "Map - Hex A3 Portrait", "slot": "hex-a3" },
+                { "file": "GM/Maps/3D/Raster/Hex A4.pdf", "name": "Map - Hex A4 Portrait", "slot": "hex-a4" },
+                { "file": "GM/Maps/3D/Raster/Hex A4 Landscape.pdf", "name": "Map - Hex A4 Landscape", "slot": "hex-a4-landscape" },
+                { "file": "GM/Maps/3D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5" },
+                { "file": "GM/Maps/3D/Raster/Isometric A4.pdf", "name": "Map - Isometric Grid A4 Portrait", "slot": "iso-a4" },
+                { "file": "GM/Maps/3D/Raster/Square A4.pdf", "name": "Map - Square Grid A4 Portrait", "slot": "grid-a4" }
+            ]
+        },
+        "kingdom": [
+            { "file": "GM/Kingdom/Kingdom.pdf", "name": "Kingdom", "slot": "kingdom" },
+            { "file": "GM/Kingdom/Settlement.pdf", "name": "Settlement", "slot": "settlement", "variant": "normal" },
+            { "file": "GM/Kingdom/Settlement large.pdf", "name": "Settlement (large)", "slot": "settlement", "variant": "large" },
+            { "file": "GM/Kingdom/Settlement without map.pdf", "name": "Settlement (without map)", "slot": "settlement", "variant": "text" }
+        ],
+        "aps": []
+    },
+
+    "base": {
+        "pages": [ "core", "combat", "inventory" ]
+    },
+
+    "layout": [
+        [ "Player's Handbook", "Player's Handbook II", "Complete Adventurer", "Complete Arcane" ],
+        [ "Complete Divine", "Complete Psionic", "Complete Warrior", "Dragon Compendium", "Dragon Magic", "Dungeonscape", "Eberron Campaign Setting" ],
+        [ "Heroes of Horror", "Magic of Incarnum", "Psionics Handbook", "Tome of Battle", "Tome of Magic", "Generic"]
+    ],
+
+    "languages": [
+        { "code": "english",  "short": "gb", "name": "English",     "ready": [1, 1, 1, 1] },
+        { "code": "italian",  "short": "it", "name": "Italiano",    "ready": [1, 0.7, 0.8, 0.65] },
+        { "code": "spanish",  "short": "es", "name": "Español",     "ready": [1, 0.7, 0.8, 0.65] },
+        { "code": "polish",   "short": "pl", "name": "Polski",      "ready": [1, 0.6, 0.75, 0.6] },
+        { "code": "german",   "short": "de", "name": "Deutch",      "ready": [1, 0.7, 0.8, 0.6] },
+        { "code": "french",   "short": "fr", "name": "Français",    "ready": [0.8, 0.6, 0.8, 0.6] },
+        { "code": "american", "short": "us", "name": "US English",  "ready": [1, 1, 1, 1] }
+    ],
+
+    "books": [
+        {
+            "name": "Player's Handbook",
+            "classes": [ "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Wizard" ]
+        },
+
+        {
+            "name": "Player's Handbook II",
+            "classes": [ "Beguiler", "Dragon Shaman", "Duskblade" ]
+        },
+
+        {
+            "name": "Complete Adventurer",
+            "classes": [ "Ninja", "Spellthief", "Scout" ]
+        },
+
+        {
+            "name": "Complete Arcane",
+            "classes": [ "Warlock", "Warmage", "Wu Jen" ]
+        },
+
+        {
+            "name": "Complete Divine",
+            "classes": [ "Favoured Soul", "Shugenja", "Spirit Shaman" ]
+        },
+
+        {
+            "name": "Complete Psionic",
+            "classes": [ "Ardent", "Divine Mind", "Lurk" ]
+        },
+
+        {
+            "name": "Complete Warrior",
+            "classes": [ "Hexblade" ]
+        },
+
+        {
+            "name": "Dragon Compendium",
+            "classes": [ "Battle Dancer", "Death Master", "Jester", "Mountebank", "Savant", "Sha'ir", "Urban Druid"]
+        },
+
+        {
+            "name": "Dragon Magic",
+            "classes": [ "Dragonfire Adept" ]
+        },
+
+        {
+            "name": "Dungeonscape",
+            "classes": [ "Factotum" ]
+        },
+
+        {
+            "name": "Eberron Campaign Setting",
+            "classes": [ "Artificer" ]
+        },
+
+        {
+            "name": "Heroes of Horror",
+            "classes": [ "Archivist", "Dread Necromancer" ]
+        },
+
+        {
+            "name": "Magic of Incarnum",
+            "classes": [ "Incarnate", "Soulborn", "Totemist" ]
+        },
+
+        {
+            "name": "Psionics Handbook",
+            "classes": [ "Psion", "Psychic Warrior", "Soulknife", "Wilder" ]
+        },
+
+        {
+            "name": "Tome of Battle",
+            "classes": [ "Crusader", "Swordsage", "Warblade", "Blank Tome of Battle" ]
+        },
+
+        {
+            "name": "Tome of Magic",
+            "classes": [ "Binder", "Shadowcaster", "Truenamer" ]
+        },
+
+        {
+            "name": "Generic",
+            "classes": [ "Spellcaster" ]
+        }
+    ],
+
+    "classes": [
+        {
+            "name": "Barbarian",
+            "pages": [ "core/barbarian", "combat/barbarian", "inventory/without" ],
+            "skills": [ "Climb", "Handle Animal", "Intimidate", "Jump", "Listen", "Ride", "Survival", "Swim" ]
+        },
+
+        {
+            "name": "Bard",
+            "pages": [ "bard", "inventory/without", "spellbook" ],
+            "skills": [ "Appraise", "Balance", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Disguise", "Escape Artist", "Gather Information", "Hide", "Jump", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Listen", "Move Silently", "Sense Motive", "Sleight of Hand", "Spellcraft", "Swim", "Tumble", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Cleric",
+            "pages": [ "cleric", "inventory/without", "spellbook" ],
+            "skills": [ "Concentration", "Diplomacy", "Heal", "Knowledge (arcana)", "Knowledge (history)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ],
+            "variants": [
+                { "name": "Cleric", "pages": [ ] },
+                {
+                    "name": "Extended Cleric",
+                    "variantName": "Extended",
+                    "pages": [ "cleric/extended" ]
+                }
+            ]
+        },
+
+        {
+            "name": "Druid",
+            "pages": [ "druid", "wildshape", "inventory/without", "animalcompanion", "spellbook" ],
+            "skills": [ "Concentration", "Diplomacy", "Handle Animal", "Heal", "Knowledge (nature)", "Listen", "Ride", "Spellcraft", "Spot", "Survival", "Swim" ]
+        },
+
+        {
+            "name": "Fighter",
+            "pages": [ ],
+            "skills": [ "Climb", "Handle Animal", "Intimidate", "Jump", "Ride", "Swim" ]
+        },
+
+        {
+            "name": "Monk",
+            "pages": [ "monk" ],
+            "skills": [ "Balance", "Climb", "Concentration", "Diplomacy", "Escape Artist", "Hide", "Jump", "Knowledge (arcana)", "Knowledge (religion)", "Listen", "Move Silently", "Sense Motive", "Spot", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Paladin",
+            "pages": [ "paladin", "inventory/without", "spellbook" ],
+            "skills": [ "Concentration", "Diplomacy", "Handle Animal", "Heal", "Knowledge (nobility)", "Knowledge (religion)", "Ride", "Sense Motive" ],
+            "variants": [
+                { "name": "Paladin", "pages": [ ] },
+                {
+                    "name": "Extended Paladin",
+                    "variantName": "Extended",
+                    "pages": [ "paladin/extended" ]
+                }
+            ]
+        },
+
+        {
+            "name": "Ranger",
+            "pages": [ "ranger", "animalcompanion", "spellbook" ],
+            "skills": [ "Climb", "Concentration", "Handle Animal", "Heal", "Hide", "Jump", "Knowledge (dungeoneering)", "Knowledge (geography)", "Knowledge (nature)", "Listen", "Move Silently", "Ride", "Search", "Spot", "Survival", "Swim", "Use Rope" ]
+        },
+
+        {
+            "name": "Rogue",
+            "pages": [ ],
+            "skills": [ "Appraise", "Balance", "Bluff", "Climb", "Decipher Script", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Forgery", "Gather Information", "Hide", "Intimidate", "Jump", "Knowledge (local)", "Listen", "Move Silently", "Open Lock", "Search", "Sense Motive", "Sleight of Hand", "Spot", "Swim", "Tumble", "Use Magic Device", "Use Rope" ]
+        },
+
+        {
+            "name": "Sorcerer",
+            "pages": [ "sorcerer", "inventory/without", "spellbook", "animalcompanion" ],
+            "skills": [ "Bluff", "Concentration", "Knowledge (arcana)", "Spellcraft" ],
+            "variants": [
+                { "name": "Sorcerer", "pages": [ ] },
+                {
+                    "name": "Sorcerer (Metamagic Specialist)",
+                    "pages": [ "sorcerer/metamagic" ]
+                }
+            ]
+        },
+
+        {
+            "name": "Wizard",
+            "pages": [ "wizard", "inventory/without", "spellbook", "animalcompanion" ],
+            "skills": [ "Concentration", "Decipher Script", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ],
+            "variants": [
+                { "name": "Wizard", "pages": [ ] },
+                {
+                    "name": "Wizard (Focus Specialist)",
+                    "pages": [ "wizard/focus" ]
+                }
+            ]
+        },
+
+        {
+            "name": "Beguiler",
+            "pages": [ "beguiler", "inventory/without", "spellbook" ],
+            "skills": [ "Appraise", "Balance", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Forgery", "Gather Information", "Hide", "Jump", "Knowledge (local)", "Listen", "Move Silently", "Open Lock", "Search", "Sense Motive", "Sleight of Hand", "Speak Language", "Spellcraft", "Spot", "Swim", "Tumble", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Dragon Shaman",
+            "pages": [ "dragonshaman", "inventory/without" ],
+            "skills": [ "Climb", "Craft", "Intimidate", "Knowledge (nature)", "Search" ]
+        },
+
+        {
+            "name": "Duskblade",
+            "pages": [ "duskblade", "inventory/without", "spellbook" ],
+            "skills": [ "Climb", "Concentration", "Decipher Script", "Jump",  "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Ride", "Sense Motive", "Spellcraft", "Swim" ]
+        },
+
+        {
+            "name": "Ninja",
+            "pages": [ "ninja" ],
+            "skills": [ "Balance", "Bluff", "Climb", "Concentration", "Disable Device", "Disguise", "Escape Artist", "Gather Information", "Hide", "Jump", "Knowledge (geography)", "Listen", "Move Silently", "Open Lock", "Search", "Sense Motive", "Sleight of Hand", "Spot", "Survival", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Spellthief",
+            "pages": [ "spellthief", "spellbook" ],
+            "skills": [ "Appraise", "Bluff", "Concentration", "Decipher Script", "Disable Device", "Escape Artist", "Gather Information", "Hide", "Jump", "Knowledge (arcana)", "Knowledge (local)", "Listen", "Move Silently", "Open Lock", "Search", "Speak Language", "Spellcraft", "Spot", "Swim", "Tumble", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Scout",
+            "pages": [ "scout", "spellbook" ],
+            "skills": [ "Balance", "Climb", "Escape Artist", "Hide", "Jump", "Knowledge (dungeoneering)", "Knowledge (geography)", "Knowledge (nature)", "Listen", "Move Silently", "Ride", "Search", "Sense Motvie", "Speak Language", "Spot", "Survival", "Swim", "Tumble", "Use Rope" ]
+        },
+
+        {
+            "name": "Warlock",
+            "pages": [ "warlock", "inventory/without" ],
+            "skills": [ "Bluff", "Concentration", "Disguise", "Hide", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Listen", "Move Silently", "Sense Motive", "Sleight of Hand", "Spellcraft", "Spot", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Warmage",
+            "pages": [ "warmage", "inventory/without", "spellbook" ],
+            "skills": [ "Concentration", "Intimidate", "Knowledge (arcana)", "Knowledge (history)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Wu Jen",
+            "pages": [ "wujen", "inventory/without", "spellbook"],
+            "skills": [ "Concentration", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Favoured Soul",
+            "pages": [ "favouredsoul", "spellbook" ],
+            "skills": [ "Concentration", "Diplomacy", "Heal", "Jump", "Knowledge (arcana)", "Sense Motive", "Spellcraft" ]
+        },
+
+        {
+            "name": "Shugenja",
+            "pages": [ "shugenja", "spellbook" ],
+            "skill": [ "Concentration", "Diplomacy", "Heal", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Spirit Shaman",
+            "pages": [ "spiritshaman", "spellbook" ],
+            "skills": [ "Concentration", "Diplomacy", "Handle Animal", "Heal", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Listen", "Ride", "Spellcraft", "Spot", "Survival" ]
+        },
+
+        {
+            "name": "Ardent",
+            "pages": [ "combat/psionic", "inventory/without", "ardent" ],
+            "skills": [ "Autohypnosis", "Concentration", "Diplomacy", "Heal", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Psicraft" ]
+        },
+
+        {
+            "name": "Divine Mind",
+            "pages": [ "combat/psionic", "inventory/without", "divinemind" ],
+            "skills": [ "Autohypnosis", "Climb", "Concentration", "Jump", "Knowledge (psionics)", "Knowledge (religion)", "Psicraft", "Ride", "Swim" ]
+        },
+
+        {
+            "name": "Lurk",
+            "pages": [ "combat/psionic", "inventory/psionic", "lurk" ],
+            "skills": [ "Autohypnosis", "Bluff", "Concentration", "Disguise", "Escape Artist", "Hide", "Jump", "Knowledge (psionics)", "Listen", "Move Silently", "Psicraft", "Sleight of Hand", "Spot", "Swim", "Tumble", "Use Psionic Device" ]
+        },
+
+        {
+            "name": "Hexblade",
+            "pages": [ "hexblade", "inventory/without", "spellbook" ],
+            "skills": [ "Bluff", "Concentration", "Diplomacy", "Intimidate", "Knowledge (arcana)", "Ride", "Spellcraft" ]
+        },
+
+        {
+            "name": "Battle Dancer",
+            "pages": [ "battledancer", "inventory/without" ],
+            "skills": [ "Balance", "Climb", "Escape Artist", "Hide", "Jump", "Listen", "Move Silently", "Open Lock", "Sleight of Hand", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Death Master",
+            "pages": [ "deathmaster", "inventory/without", "spellbook"],
+            "skills": [ "Concentration", "Decipher Script", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Jester",
+            "pages": [ "jester", "inventory/without", "spellbook"],
+            "skills": [ "Balance", "Bluff", "Climb", "Disable Device", "Disguise", "Escape Artist", "Gather Information", "Hide", "Intimidate", "Jump", "Knowledge (local)", "Knowledge (nobility)", "Move Silently", "Open Lock", "Search", "Sense Motive", "Sleight of Hand", "Speak Language", "Tumble", "Use Magic Device", "Use Rope" ]
+        },
+
+        {
+            "name": "Mountebank",
+            "pages": [ "mountebank", "inventory/without", "spellbook"],
+            "skills": [ "Appraise", "Bluff", "Concentration", "Diplomacy", "Disguise", "Escape Artist", "Forgery", "Intimidate", "Jump", "Knowledge (arcana)", "Knowledge (local)", "Knowledge (psionics)", "Listen", "Sense Motive", "Sleight of Hand", "Spellcraft", "Spot", "Tumble" ]
+        },
+
+        {
+            "name": "Savant",
+            "pages": [ "savant", "inventory/without", "spellbook"],
+            "skills": [ "Appraise", "Balance", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Forgery", "Gather Information", "Handle Animal", "Heal", "Hide", "Intimidate", "Jump", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Listen", "Move Silently", "Open Lock", "Pick Pocket", "Ride", "Search", "Sense Motive", "Sleight of Hand", "Speak Language", "Spellcraft", "Spot", "Survival", "Swim", "Tumble", "Use Magic Device", "Use Psionic Device", "Use Rope", "Knowledge (psionics)" ]
+        },
+
+        {
+            "name": "Sha'ir",
+            "pages": [ "shair", "inventory/without", "spellbook"],
+            "skills": [ "Bluff", "Concentration", "Decipher Script", "Diplomacy", "Knowledge (arcana)", "Knowledge (planes)", "Listen", "Profession", "Sense Motive", "Spellcraft" ]
+        },
+
+        {
+            "name": "Urban Druid",
+            "pages": [ "urbandruid", "inventory/without", "spellbook"],
+            "skills": [ "Bluff", "Concentration", "Diplomacy", "Gather Information", "Intimidate", "Knowledge (engineering)", "Knowledge (history)", "Knowledge (local)", "Sense Motive", "Speak Language", "Spellcraft", "Survival" ]
+        },
+
+        {
+            "name": "Dragonfire Adept",
+            "pages": [ "dragonfireadept", "inventory/without" ],
+            "skills": [ "Appraise", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Intimidate", "Jump", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Knowledge (psionics)", "Listen", "Search", "Sense Motive", "Speak Language", "Spellcraft", "Spot", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Factotum",
+            "pages": [ "factotum", "spellbook" ],
+            "skills": [ "Appraise", "Balance", "Bluff", "Climb", "Concentration", "Decipher Script", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Forgery", "Gather Information", "Handle Animal", "Heal", "Hide", "Intimidate", "Jump", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (religion)", "Knowledge (planes)", "Listen", "Move Silently", "Open Lock", "Pick Pocket", "Ride", "Search", "Sense Motive", "Sleight of Hand", "Speak Language", "Spellcraft", "Spot", "Survival", "Swim", "Tumble", "Use Magic Device", "Use Psionic Device", "Use Rope", "Knowledge (psionics)", "Control Shape", "Iaijutsu Focus", "Martial Lore", "Scry", "Truespeak" ]
+        },
+
+        {
+            "name": "Artificer",
+            "pages": [ "artificer", "inventory/without", "spellbook"],
+            "skills": [ "Appraise", "Concentration", "Disable Device", "Knowledge (arcana)", "Knowledge (engineering)", "Knowledge (planes)", "Open Lock", "Search", "Spellcraft", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Archivist",
+            "pages": [ "archivist", "inventory/without", "spellbook"],
+            "skills": [ "Concentration", "Decipher Script", "Diplomacy", "Gather Information", "Heal", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (psionics)", "Knowledge (religion)", "Knowledge (planes)", "Search", "Spellcraft" ]
+        },
+
+        {
+            "name": "Dread Necromancer",
+            "pages": [ "dreadnecromancer", "inventory/with", "spellbook"],
+            "skills": [ "Bluff", "Concentration", "Decipher Script", "Disguise", "Hide", "Intimidate", "Knowledge (arcana)", "Knowledge (religion)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Incarnate",
+            "pages": [ "incarnate" ],
+            "skills": [ "Concentration", "Knowledge (arcana)", "Knowledge (religion)", "Knowledge (planes)", "Spellcraft" ]
+        },
+
+        {
+            "name": "Soulborn",
+            "pages": [ "soulborn", "inventory/without" ],
+            "skills": [ "Climb", "Concentration", "Handle Animal", "Heal", "Jump", "Knowledge (arcana)", "Knowledge (planes)", "Ride", "Spellcraft", "Swim" ]
+        },
+
+        {
+            "name": "Totemist",
+            "pages": [ "totemist", "inventory/without" ],
+            "skills": [ "Concentration", "Handle Animal", "Knowledge (arcana)", "Knowledge (nature)", "Knowledge (planes)", "Listen", "Ride", "Spellcraft", "Spot", "Survival", "Swim" ]
+        },
+
+        {
+            "name": "Psion",
+            "pages": [ "combat/psionic", "psion", "inventory/without", "psicrystal" ],
+            "skills": [ "Concentration",  "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (psionics)", "Knowledge (religion)", "Knowledge (planes)", "Psicraft" ]
+        },
+
+        {
+            "name": "Psychic Warrior",
+            "pages": [ "combat/psionic", "psychicwarrior", "inventory/without", "psicrystal" ],
+            "skills": [ "Autohypnosis", "Climb", "Concentration", "Jump", "Knowledge (psionics)", "Ride", "Search", "Swim" ]
+        },
+
+        {
+            "name": "Soulknife",
+            "pages": [ "combat/psionic", "soulknife", "inventory/without" ],
+            "skills": [ "Autohypnosis", "Climb", "Concentration", "Hide", "Jump", "Knowledge (psionics)", "Listen", "Move Silently", "Spot", "Tumble" ]
+        },
+
+        {
+            "name": "Wilder",
+            "pages": [ "combat/psionic", "wilder", "inventory/without", "psicrystal" ],
+            "skills": [ "Autohypnosis", "Balance", "Bluff", "Climb", "Concentration", "Escape Artist", "Intimidate", "Knowledge (psionics)", "Listen", "Psicraft", "Sense Motive", "Spot", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Crusader",
+            "pages": [ "crusader" ],
+            "skills": [ "Balance", "Concentration", "Diplomacy", "Intimidate", "Jump", "Knowledge (history)", "Knowledge (religion)", "Martial Lore", "Ride" ]
+        },
+
+        {
+            "name": "Swordsage",
+            "pages": [ "swordsage" ],
+            "skills": [ "Balance", "Climb", "Concentration", "Heal", "Hide", "Intimidate", "Jump", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Listen", "Martial Lore", "Move Silently", "Ride", "Sense Motive", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Warblade",
+            "pages": [ "warblade" ],
+            "skills": [ "Balance", "Climb", "Concentration", "Diplomacy", "Intimidate", "Jump", "Knowledge (history)", "Knowledge (local)", "Martial Lore", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Martial Adept",
+            "pages": [ "martialadept" ],
+            "skills": [ "Balance", "Climb", "Concentration", "Diplomacy", "Escape Artist", "Hide", "Jump", "Knowledge (arcana)", "Knowledge (religion)", "Listen", "Move Silently", "Sense Motive", "Spot", "Swim", "Tumble" ]
+        },
+
+        {
+            "name": "Binder",
+            "pages": [ "binder", "vestiges"],
+            "skills": [ "Bluff", "Concentration", "Decipher Script", "Diplomacy", "Gather Information", "Intimidate", "Knowledge (arcana)", "Knowledge (religion)", "Knowledge (planes)", "Sense Motive" ]
+        },
+
+        {
+            "name": "Shadowcaster",
+            "pages": [ "shadowcaster" ],
+            "skills": [ "Concentration", "Hide", "Intimidate", "Knowledge (arcana)", "Knowledge (planes)", "Move Silently", "Spellcraft", "Spot" ]
+        },
+
+        {
+            "name": "Truenamer",
+            "pages": [ "truenamer" ],
+            "skills": [ "Concentration", "Truespeak", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Spellcaster",
+            "pages": [ ],
+            "variants": [
+                {
+                    "name": "Spontaneous Caster",
+                    "variantName": "Spontaneous",
+                    "pages": [ "caster/spontaneous", "inventory/without", "spellbook"]
+                },
+
+                {
+                    "name": "Vancian Caster",
+                    "variantName": "Vancian",
+                    "pages": [ "caster/vancian", "inventory/without", "spellbook"]
+                },
+
+                {
+                    "name": "Lesser Caster",
+                    "variantName": "Lesser",
+                    "pages": [ "caster/lesser", "inventory/without", "spellbook"]
+                }
+            ]
+        }
+    ]
+}
