@@ -356,6 +356,7 @@
             { "file": "Archetypes/Investigator/Empiricist.pdf", "slot": "investigator", "variant": "empiricist", "name": "Empiricist" },
         { "file": "Advanced Class Guide/Shaman.pdf", "slot": "shaman", "name": "Shaman" },
         { "file": "Advanced Class Guide/Skald.pdf", "slot": "skald", "name": "Skald" },
+            { "file": "Archetypes/Skald/Bold Schemer.pdf", "slot": "skald", "variant": "boldschemer", "name": "Bold Schemer" },
         { "file": "Advanced Class Guide/Slayer.pdf", "slot": "slayer", "name": "Slayer" },
         { "file": "Advanced Class Guide/Swashbuckler.pdf", "slot": "swashbuckler", "name": "Swashbuckler" },
         { "file": "Advanced Class Guide/Warpriest.pdf", "slot": "warpriest", "name": "Warpriest" },
@@ -373,6 +374,20 @@
         { "file": "Occult/Spiritualist.pdf", "slot": "spiritualist", "name": "Spiritualist" },
             { "file": "Occult/Spiritualist - Phantom.pdf", "slot": "spiritualist-phantom", "name": "Spiritualist Phantom" },
             { "file": "Occult/Spiritualist - Phantom - Combat.pdf", "slot": "spiritualist-phantom-combat", "name": "Spiritualist Phantom Combat" },
+
+        { "file": "Ultimate Intrigue/Vigilante - Avenger.pdf", "slot": "vigilante", "variant": "avenger", "name": "Avenger" },
+        { "file": "Ultimate Intrigue/Vigilante - Stalker.pdf", "slot": "vigilante", "variant": "stalker", "name": "Stalker" },
+            { "file": "Archetypes/Vigilante/Brute.pdf", "slot": "vigilante", "variant": "brute", "name": "Brute" },
+            { "file": "Archetypes/Vigilante/Cabalist.pdf", "slot": "vigilante", "variant": "cabalist", "name": "Cabalist" },
+            { "file": "Archetypes/Vigilante/Gunmaster.pdf", "slot": "vigilante", "variant": "gunmaster", "name": "Gunmaster" },
+            { "file": "Archetypes/Vigilante/Magical Child.pdf", "slot": "vigilante", "variant": "magicalchild", "name": "Magical Child" },
+                { "file": "Archetypes/Vigilante/Magical Child - Animal Guide.pdf", "slot": "magicalchild-animalguide", "name": "Animal Guide" },
+            { "file": "Archetypes/Vigilante/Mounted Fury.pdf", "slot": "vigilante", "variant": "mounted fury", "name": "Mounted Fury" },
+            { "file": "Archetypes/Vigilante/Psychometrist.pdf", "slot": "vigilante", "variant": "psychometrist", "name": "Psychometrist" },
+                { "file": "Archetypes/Vigilante/Psychometrist - Implements.pdf", "slot": "occultist-implements", "variant": "psychometrist", "name": "Psychometrist Implements", "a5": true },
+            { "file": "Archetypes/Vigilante/Warlock.pdf", "slot": "vigilante", "variant": "warlock", "name": "Warlock" },
+            { "file": "Archetypes/Vigilante/Wildsoul.pdf", "slot": "vigilante", "variant": "wildsoul", "name": "Wildsoul" },
+            { "file": "Archetypes/Vigilante/Zealot.pdf", "slot": "vigilante", "variant": "zealot", "name": "Zealot" },
 		
         { "file": "Unchained/Barbarian/Barbarian.pdf", "slot": "unchained-barbarian", "name": "Barbarian" },
             { "file": "Unchained/Barbarian/Barbarian - Combat.pdf", "slot": "combat", "variant": "unchained-barbarian", "name": "Combat", "position": 11 },
@@ -570,6 +585,11 @@
         {
             "name": "Occult Adventures",
             "classes": [ "Kineticist", "Medium", "Mesmerist", "Occultist", "Psychic", "Spiritualist" ]
+        },
+
+        {
+            "name": "Ultimate Intrigue",
+            "classes": [ "Vigilante" ]
         },
 
         {
@@ -1000,7 +1020,13 @@
         {
             "name": "Skald",
             "pages": [ "skald", "inventory" ],
-            "skills": [ "Acrobatics", "Appraise", "Bluff", "Climb", "Concentration (CHA)", "Diplomacy", "Escape Artist", "Handle Animal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Perception", "Ride", "Sense Motive", "Spellcraft", "Swim", "Use Magic Device" ]
+            "skills": [ "Acrobatics", "Appraise", "Bluff", "Climb", "Concentration (CHA)", "Diplomacy", "Escape Artist", "Handle Animal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Perception", "Ride", "Sense Motive", "Spellcraft", "Swim", "Use Magic Device" ],
+            "variants": [
+                { "name": "Skald", "pages": [ ] },
+                { "name": "Bold Schemer", "pages": [ "skald/boldschemer" ], 
+                    "skills": [ "Disable Device", "Sleight of Hand", "Stealth" ],
+                    "notSkills": [ "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (planes)" ] }
+            ]
         },
 
         {
@@ -1098,6 +1124,25 @@
             "name": "Spiritualist",
             "pages": [ "spiritualist", "spiritualist-phantom", "spiritualist-phantom-combat", "spellbook" ],
             "skills": [ "Bluff", "Concentration (WIS)", "Fly", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Sense Motive", "Spellcraft", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Vigilante",
+            "pages": [ "" ],
+            "skills": [ "Acrobatics", "Appraise", "Bluff", "Climb", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Intimidate", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (local)", "Perception", "Perform", "Ride", "Sense Motive", "Sleight of Hand", "Stealth", "Survival", "Swim", "Use Magic Device" ],
+            "variants": [
+                { "name": "Avenger", "pages": [ "vigilante/avenger" ] },
+                { "name": "Stalker", "pages": [ "vigilante/stalker" ] },
+                { "name": "Brute", "pages": [ "vigilante/brute" ] },
+                { "name": "Cabalist", "pages": [ "vigilante/cabalist" ], "skills": [ "Knowledge (arcana)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perception", "Survival" ] },
+                { "name": "Gunmaster", "pages": [ "vigilante/gunmaster" ] },
+                { "name": "Magical Child", "pages": [ "vigilante/magicalchild", "magicalchild-animalguide", "animalcompanion" ], "skills": [ "Knowledge (arcana)", "Knowledge (planes)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perception", "Survival" ] },
+                { "name": "Mounted Fury", "pages": [ "vigilante/mountedfury", "animalcompanion" ], "skills": [ "Handle Animal" ], "notSkills": [ "Swim", "Use Magic Device" ] },
+                { "name": "Psychometrist", "pages": [ "vigilante/psychometrist", "occultist-implements/psychometrist" ], "skills": [ "Knowledge (arcana)", "Knowledge (history)" ], "notSkills": [ "Knowledge (dungeoneering)", "Knowledge (engineering)" ] },
+                { "name": "Warlock", "pages": [ "vigilante/warlock" ], "skills": [ "Knowledge (arcana)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perception", "Survival" ] },
+                { "name": "Wildsoul", "pages": [ "vigilante/wildsoul" ] },
+                { "name": "Zealot", "pages": [ "vigilante/zealot" ], "skills": [ "Knowledge (religion)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perform", "Sleight of Hand" ] }
+            ]
         },
 
         {
