@@ -381,12 +381,13 @@
             { "file": "Archetypes/Vigilante/Cabalist.pdf", "slot": "vigilante", "variant": "cabalist", "name": "Cabalist" },
             { "file": "Archetypes/Vigilante/Gunmaster.pdf", "slot": "vigilante", "variant": "gunmaster", "name": "Gunmaster" },
             { "file": "Archetypes/Vigilante/Magical Child.pdf", "slot": "vigilante", "variant": "magicalchild", "name": "Magical Child" },
-                { "file": "Archetypes/Vigilante/Magical Child - Animal Guide.pdf", "slot": "magicalchild-animalguide", "name": "Animal Guide" },
+                { "file": "Archetypes/Vigilante/Magical Child - Animal Guide.pdf", "slot": "magicalchild-animalguide", "name": "Animal Guide", "a5": true },
             { "file": "Archetypes/Vigilante/Mounted Fury.pdf", "slot": "vigilante", "variant": "mounted fury", "name": "Mounted Fury" },
             { "file": "Archetypes/Vigilante/Psychometrist.pdf", "slot": "vigilante", "variant": "psychometrist", "name": "Psychometrist" },
                 { "file": "Archetypes/Vigilante/Psychometrist - Implements.pdf", "slot": "occultist-implements", "variant": "psychometrist", "name": "Psychometrist Implements", "a5": true },
             { "file": "Archetypes/Vigilante/Warlock.pdf", "slot": "vigilante", "variant": "warlock", "name": "Warlock" },
-            { "file": "Archetypes/Vigilante/Wildsoul.pdf", "slot": "vigilante", "variant": "wildsoul", "name": "Wildsoul" },
+            { "file": "Archetypes/Vigilante/Wildsoul - Avenger.pdf", "slot": "vigilante", "variant": "wildsoul-avenger", "name": "Wildsoul Avenger" },
+            { "file": "Archetypes/Vigilante/Wildsoul - Stalker.pdf", "slot": "vigilante", "variant": "wildsoul-stalker", "name": "Wildsoul Stalker" },
             { "file": "Archetypes/Vigilante/Zealot.pdf", "slot": "vigilante", "variant": "zealot", "name": "Zealot" },
 		
         { "file": "Unchained/Barbarian/Barbarian.pdf", "slot": "unchained-barbarian", "name": "Barbarian" },
@@ -536,7 +537,7 @@
     },
 
     "layout": [
-        [ "Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat" ],
+        [ "Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Ultimate Intrigue" ],
         [ "Advanced Class Guide", "Mythic Adventures", "Prestige Classes", "Occult Adventures", "Pathfinder Unchained" ],
         [ "Tome of Secrets", "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
     ],
@@ -1140,7 +1141,8 @@
                 { "name": "Mounted Fury", "pages": [ "vigilante/mountedfury", "animalcompanion" ], "skills": [ "Handle Animal" ], "notSkills": [ "Swim", "Use Magic Device" ] },
                 { "name": "Psychometrist", "pages": [ "vigilante/psychometrist", "occultist-implements/psychometrist" ], "skills": [ "Knowledge (arcana)", "Knowledge (history)" ], "notSkills": [ "Knowledge (dungeoneering)", "Knowledge (engineering)" ] },
                 { "name": "Warlock", "pages": [ "vigilante/warlock" ], "skills": [ "Knowledge (arcana)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perception", "Survival" ] },
-                { "name": "Wildsoul", "pages": [ "vigilante/wildsoul" ] },
+                { "name": "Wildsoul - Avenger", "pages": [ "vigilante/wildsoul-avenger" ] },
+                { "name": "Wildsoul - Stalker", "pages": [ "vigilante/wildsoul-stalker" ] },
                 { "name": "Zealot", "pages": [ "vigilante/zealot" ], "skills": [ "Knowledge (religion)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perform", "Sleight of Hand" ] }
             ]
         },
