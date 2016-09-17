@@ -132,6 +132,14 @@
         "Survival": [ "Survival <alt>" ]
     },
 
+    "duplex": {
+        "core": "combat",
+        "animalcompanion": "none",
+        "mini": "none",
+        "mini-animal": "none",
+        "eidolon": "eidoloncombat"
+    },
+
     "pages": [
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
         { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
@@ -335,10 +343,11 @@
         { "file": "Advanced/Inquisitor.pdf", "slot": "inquisitor", "name": "Inquisitor" },
         { "file": "Advanced/Oracle.pdf", "slot": "oracle", "name": "Oracle" },
         { "file": "Advanced/Summoner/Summoner.pdf", "slot": "summoner", "name": "Summoner" },
-          { "file": "Advanced/Summoner/Eidolon.pdf", "slot": "eidolon", "name": "Eidolon" },
+          { "file": "Advanced/Summoner/Eidolon.pdf", "slot": "eidolon", "name": "Eidolon", "near": "summoner" },
           { "file": "Advanced/Summoner/Eidolon - Combat.pdf", "slot": "eidoloncombat", "name": "Eidolon Combat" },
             { "file": "Archetypes/Summoner/Synthesist.pdf", "slot": "summoner", "variant": "synthesist", "name": "Synthesist" },
-        { "file": "Advanced/Witch.pdf", "slot": "witch", "name": "Witch" },
+        { "file": "Advanced/Witch A.pdf", "slot": "witch", "name": "Witch" },
+            { "file": "Advanced/Witch B.pdf", "slot": "witch-b", "name": "Witch B" },
         
         { "file": "Ultimate Magic/Magus.pdf", "slot": "magus", "name": "Magus" },
 
@@ -396,7 +405,7 @@
             { "file": "Unchained/Monk/Monk - Combat.pdf", "slot": "combat", "variant": "unchained-monk", "name": "Combat", "position": 11 },
         { "file": "Unchained/Rogue.pdf", "slot": "unchained-rogue", "name": "Rogue" },
         { "file": "Unchained/Summoner/Summoner.pdf", "slot": "unchained-summoner", "name": "Summoner" },
-            { "file": "Unchained/Summoner/Eidolon.pdf", "slot": "eidolon", "variant": "unchained-summoner", "name": "Eidolon" },
+            { "file": "Unchained/Summoner/Eidolon.pdf", "slot": "eidolon", "variant": "unchained-summoner", "name": "Eidolon", "near": "unchained-summoner" },
             { "file": "Unchained/Summoner/Eidolon - Combat.pdf", "slot": "eidoloncombat", "variant": "unchained-summoner", "name": "Eidolon Combat", "position": 11 },
 
 
@@ -951,7 +960,7 @@
 
         {
             "name": "Witch",
-            "pages": [ "witch", "inventory", "animalcompanion", "spellbook" ],
+            "pages": [ "witch", "witch-b", "inventory", "animalcompanion", "spellbook" ],
             "skills": [ "Concentration (INT)", "Fly", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (history)", "Knowledge (nature)", "Knowledge (planes)", "Spellcraft", "Use Magic Device" ]
         },
 
