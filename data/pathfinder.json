@@ -8,7 +8,7 @@
         { "name": "Bluff", "ability": "CHA", "useUntrained": true, "noRage": true, "favouredEnemy": true },
         { "name": "Climb", "ability": "STR", "useUntrained": true, "acp": true },
         { "name": "Diplomacy", "ability": "CHA", "useUntrained": true, "noRage": true },
-            { "name": "Wild Empathy", "ability": "CHA", "noRanks": true, "noRage": true, "plusLevel": true },
+            { "name": "Wild Empathy", "subSkillOf": "Diplomacy", "noRanks": true, "noRage": true },
         { "name": "Disable Device", "ability": "DEX", "noRage": true, "acp": true },
             { "name": "Disarm Traps", "subSkillOf": "Disable Device", "optional": true },
         { "name": "Disguise", "ability": "CHA", "useUntrained": true, "noRage": true },
@@ -41,6 +41,10 @@
         { "name": "Knowledge (psionics)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
         { "name": "Knowledge (planes)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
         { "name": "Knowledge (religion)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
+
+
+        { "name": "Craft (alchemy)", "ability": "INT", "noRage": true, "afterFold": true },
+            { "name": "Craft (poisons)", "subSkillOf": "Craft (alchemy)", "noRage": true, "afterFold": true },
         
         { "name": "Concentration (INT)", "displayName": "Concentration", "ability": "INT", "noRage": true, "noRanks": true, "plusLevel": true },
         { "name": "Concentration (WIS)", "displayName": "Concentration", "ability": "WIS", "noRage": true, "noRanks": true, "plusLevel": true },
@@ -449,6 +453,13 @@
         { "file": "Mythic/Marshal.pdf", "slot": "mythic", "variant": "marshal", "name": "Marshal" },
         { "file": "Mythic/Trickster.pdf", "slot": "mythic", "variant": "trickster", "name": "Trickster" },
 
+        { "file": "Mythic/Half Archmage.pdf", "slot": "mythic", "variant": "half-archmage", "name": "Archmage" },
+        { "file": "Mythic/Half Champion.pdf", "slot": "mythic", "variant": "half-champion", "name": "Champion" },
+        { "file": "Mythic/Half Guardian.pdf", "slot": "mythic", "variant": "half-guardian", "name": "Guardian" },
+        { "file": "Mythic/Half Hierophant.pdf", "slot": "mythic", "variant": "half-hierophant", "name": "Hierophant" },
+        { "file": "Mythic/Half Marshal.pdf", "slot": "mythic", "variant": "half-marshal", "name": "Marshal" },
+        { "file": "Mythic/Half Trickster.pdf", "slot": "mythic", "variant": "half-trickster", "name": "Trickster" },
+
         { "file": "NeoExodus/Archetypes/Apothecary.pdf", "slot": "alchemist", "variant": "apothecary", "name": "Apothecary" },
         { "file": "NeoExodus/Archetypes/Cleric of the Kaga.pdf", "slot": "cleric", "variant": "clericofthekaga", "name": "Cleric of the Kaga" },
         { "file": "NeoExodus/Archetypes/Janissary.pdf", "slot": "monk", "variant": "janissary", "name": "Janissary" },
@@ -724,6 +735,7 @@
             "name": "Druid",
             "pages": [ "druid", "inventory/without", "wildshape", "spellbook" ],
             "skills": [ "Concentration (WIS)", "Climb", "Fly", "Handle Animal", "Heal", "Knowledge (geography)", "Knowledge (nature)", "Perception", "Ride", "Spellcraft", "Survival", "Swim", "Wild Empathy" ],
+            "plusLevel": [ "Wild Empathy" ],
             "axes": [
                 ["Druid", "Shaman", "Menhir Savant", "Mooncaller", "Pack Lord", "Reincarnated", "Aquatic", "Arctic", "Blight", "Cave", "Desert", "Jungle", "Mountain", "Plains", "Swamp", "Storm", "Urban", "World Walker"],
                 ["Animal Companion", "Domain"]
@@ -843,6 +855,7 @@
             "name": "Ranger",
             "pages": [ "core/ranger", "combat/ranger", "ranger", "inventory/without", "spellbook" ],
             "skills": [ "Climb", "Concentration (WIS)", "Handle Animal", "Heal", "Intimidate", "Knowledge (dungeoneering)", "Knowledge (geography)", "Knowledge (nature)", "Perception", "Ride", "Spellcraft", "Stealth", "Survival", "Swim", "Track", "Wild Empathy" ],
+            "plusLevel": [ "Wild Empathy" ],
             "plusHalfLevel": [ "Track" ],
             "variants": [
                 { "name": "Ranger", "pages": [ ] },
@@ -871,26 +884,26 @@
             "plusHalfLevel": [ "Disarm Traps", "Locate Traps" ],
             "variants": [
                 { "name": "Rogue", "pages": [ ] },
-                { "name": "Acrobat", "pages": [ "rogue/acrobat" ] },
+                { "name": "Acrobat", "pages": [ "rogue/acrobat" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Bandit", "pages": [ "rogue/bandit" ] },
                 { "name": "Burglar", "pages": [ "rogue/burglar" ] },
-                { "name": "Chameleon", "pages": [ "rogue/chameleon" ] },
-                { "name": "Charlatan", "pages": [ "rogue/charlatan" ] },
-                { "name": "Cutpurse", "pages": [ "rogue/curpurse" ] },
-                { "name": "Driver", "pages": [ "rogue/driver" ] },
+                { "name": "Chameleon", "pages": [ "rogue/chameleon" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Charlatan", "pages": [ "rogue/charlatan" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Cutpurse", "pages": [ "rogue/curpurse" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Driver", "pages": [ "rogue/driver" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Investigator", "pages": [ "rogue/investigator" ] },
                 { "name": "Knife Master", "pages": [ "rogue/knifemaster" ] },
-                { "name": "Pirate", "pages": [ "rogue/pirate" ] },
-                { "name": "Poisoner", "pages": [ "rogue/poisoner" ] },
-                { "name": "Rake", "pages": [ "rogue/rake" ] },
-                { "name": "Roof Runner", "pages": [ "rogue/roofrunner" ] },
+                { "name": "Pirate", "pages": [ "rogue/pirate" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Poisoner", "pages": [ "rogue/poisoner" ], "plusHalfLevel": [ "Craft (poisons)" ], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Rake", "pages": [ "rogue/rake" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Roof Runner", "pages": [ "rogue/roofrunner" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Sanctified Rogue", "pages": [ "rogue/sanctified" ] },
                 { "name": "Scout", "pages": [ "rogue/scout" ] },
-                { "name": "Sniper", "pages": [ "rogue/sniper" ] },
-                { "name": "Spy", "pages": [ "rogue/spy" ] },
-                { "name": "Survivalist", "pages": [ "rogue/survivalist" ] },
+                { "name": "Sniper", "pages": [ "rogue/sniper" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Spy", "pages": [ "rogue/spy" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
+                { "name": "Survivalist", "pages": [ "rogue/survivalist" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Swashbuckler", "pages": [ "rogue/swashbuckler" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
-                { "name": "Thug", "pages": [ "rogue/thug" ] },
+                { "name": "Thug", "pages": [ "rogue/thug" ], "plusHalfLevel": [], "notSkills": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Trapsmith", "pages": [ "rogue/trapsmith" ] }
             ]
         },
@@ -903,7 +916,7 @@
                 { "name": "Sorcerer", "pages": [ ] },
                 { "name": "Crossblooded Sorcerer", "pages": [ "sorcerer/crossblooded" ] },
                 { "name": "False Priest", "pages": [ "sorcerer/falsepriest" ] },
-                { "name": "Seeker", "pages": [ "sorcerer/seeker" ] },
+                { "name": "Seeker", "pages": [ "sorcerer/seeker" ], "skills": [ "Disarm Traps", "Locate Traps" ], "plusHalfLevel": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Tattooed Sorcerer", "pages": [ "sorcerer/tattooed" ] },
                 { "name": "Wildblooded Sorcerer", "pages": [ "sorcerer/wildblooded" ] }
             ]
@@ -1184,13 +1197,23 @@
         {
             "name": "Mythic",
             "pages": [ "inventory" ],
+            "axes": [
+                ["Full", "Half"],
+                ["Archmage", "Champion", "Guardian", "Hierophant", "Marshal", "Trickster"]
+            ],
             "variants": [
-                { "name": "Archmage", "pages": [ "mythic/archmage" ] },
-                { "name": "Champion", "pages": [ "mythic/champion" ] },
-                { "name": "Guardian", "pages": [ "mythic/guardian" ] },
-                { "name": "Hierophant", "pages": [ "mythic/hierophant" ] },
-                { "name": "Marshal", "pages": [ "mythic/marshal" ] },
-                { "name": "Trickster", "pages": [ "mythic/trickster" ] }
+                { "name": "Archmage", "pages": [ "mythic/archmage" ], "axes": ["Full", "Archmage"] },
+                { "name": "Champion", "pages": [ "mythic/champion" ], "axes": ["Full", "Champion"] },
+                { "name": "Guardian", "pages": [ "mythic/guardian" ], "axes": ["Full", "Guardian"] },
+                { "name": "Hierophant", "pages": [ "mythic/hierophant" ], "axes": ["Full", "Hierophant"] },
+                { "name": "Marshal", "pages": [ "mythic/marshal" ], "axes": ["Full", "Marshal"] },
+                { "name": "Trickster", "pages": [ "mythic/trickster" ], "axes": ["Full", "Trickster"] },
+                { "name": "Half Archmage", "pages": [ "mythic/half-archmage" ], "axes": ["Half", "Archmage"] },
+                { "name": "Half Champion", "pages": [ "mythic/half-champion" ], "axes": ["Half", "Champion"] },
+                { "name": "Half Guardian", "pages": [ "mythic/half-guardian" ], "axes": ["Half", "Guardian"] },
+                { "name": "Half Hierophant", "pages": [ "mythic/half-hierophant" ], "axes": ["Half", "Hierophant"] },
+                { "name": "Half Marshal", "pages": [ "mythic/half-marshal" ], "axes": ["Half", "Marshal"] },
+                { "name": "Half Trickster", "pages": [ "mythic/half-trickster" ], "axes": ["Half", "Trickster"] }
             ]
         },
 
