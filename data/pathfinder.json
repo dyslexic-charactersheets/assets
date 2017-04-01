@@ -244,8 +244,9 @@
             { "file": "Archetypes/Druid/World Walker (Domain).pdf", "slot": "druid", "variant": "worldwalker/domain", "name": "World Walker (Domain)" },
                 { "file": "Archetypes/Druid/World Walker - Character Info.pdf", "slot": "core", "variant": "worldwalker", "name": "Character Info" },
 
-        { "file": "Core/Fighter.pdf", "slot": "fighter", "variant": "melee", "name": "Fighter (Melee)" },
-            { "file": "Core/Fighter (Ranged).pdf", "slot": "fighter", "variant": "ranged", "name": "Fighter (Ranged)" },
+        { "file": "Core/Fighter/Fighter.pdf", "slot": "fighter", "name": "Fighter (Melee)" },
+            { "file": "Core/Fighter/Melee.pdf", "slot": "fighter-maths", "variant": "melee", "name": "Melee" },
+            { "file": "Core/Fighter/Ranged.pdf", "slot": "fighter-maths", "variant": "ranged", "name": "Ranged" },
 
         { "file": "Core/Monk/Monk - Combat.pdf", "slot": "combat", "variant": "monk", "name": "Monk", "position": 11 },
           { "file": "Core/Monk.pdf", "slot": "monk", "name": "Monk" },
@@ -788,8 +789,8 @@
                 ["Melee", "Ranged"]
             ],
             "variants": [
-                { "name": "Fighter (Melee)", "pages": [ "fighter/melee" ], "axes": ["Fighter", "Melee"] },
-                { "name": "Fighter (Ranged)", "pages": [ "fighter/ranged" ], "axes": ["Fighter", "Ranged"] }
+                { "name": "Fighter (Melee)", "pages": [ "fighter", "fighter-maths/melee" ], "axes": ["Fighter", "Melee"] },
+                { "name": "Fighter (Ranged)", "pages": [ "fighter", "fighter-maths/ranged" ], "axes": ["Fighter", "Ranged"] }
             ]
         },
 
