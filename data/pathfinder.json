@@ -247,6 +247,7 @@
         { "file": "Core/Fighter/Fighter.pdf", "slot": "fighter", "name": "Fighter (Melee)" },
             { "file": "Core/Fighter/Melee.pdf", "slot": "fighter-maths", "variant": "melee", "name": "Melee" },
             { "file": "Core/Fighter/Ranged.pdf", "slot": "fighter-maths", "variant": "ranged", "name": "Ranged" },
+			{ "file": "Archetypes/Fighter/Viking.pdf", "slot": "fighter", "variant": "viking", "name": "Viking" },
 
         { "file": "Core/Monk/Monk - Combat.pdf", "slot": "combat", "variant": "monk", "name": "Monk", "position": 11 },
           { "file": "Core/Monk.pdf", "slot": "monk", "name": "Monk" },
@@ -787,12 +788,14 @@
             "pages": [ "fighter", "inventory" ],
             "skills": [ "Climb", "Handle Animal", "Intimidate", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Ride", "Survival", "Swim" ],
             "axes": [
-                ["Fighter"],
+                ["Fighter", "Viking"],
                 ["Melee", "Ranged"]
             ],
             "variants": [
                 { "name": "Fighter (Melee)", "pages": [ "fighter", "fighter-maths/melee" ], "axes": ["Fighter", "Melee"] },
-                { "name": "Fighter (Ranged)", "pages": [ "fighter", "fighter-maths/ranged" ], "axes": ["Fighter", "Ranged"] }
+                { "name": "Fighter (Ranged)", "pages": [ "fighter", "fighter-maths/ranged" ], "axes": ["Fighter", "Ranged"] },
+				{ "name": "Viking (Melee)", "pages": [ "fighter/viking", "fighter-maths/melee", "core/barbarian", "combat/barbarian" ], "axes": ["Viking", "Melee"] },
+				{ "name": "Viking (Ranged)", "pages": [ "fighter/viking", "fighter-maths/ranged", "core/barbarian", "combat/barbarian" ], "axes": ["Viking", "Ranged"] }
             ]
         },
 
