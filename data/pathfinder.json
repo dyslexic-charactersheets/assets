@@ -429,6 +429,14 @@
         { "file": "Psionics/Marksman.pdf", "slot": "marksman", "name": "Marksman" },
         { "file": "Psionics/Tactician.pdf", "slot": "tactician", "name": "Tactician" },
         { "file": "Psionics/Vitalist.pdf", "slot": "vitalist", "name": "Vitalist" },
+
+        { "file": "Path of War/Stalker.pdf", "slot": "stalker", "name": "Stalker" },
+        { "file": "Path of War/Warder.pdf", "slot": "warder", "name": "Warlord" },
+        { "file": "Path of War/Warlord", "slot": "warlord", "name": "Warlord" },
+        { "file": "Path of War/Harbinger.pdf", "slot": "harbiger", "name": "Harbinger" },
+        { "file": "Path of War/Mystic.pdf", "slot": "mystic", "name": "Mystic" },
+            { "file": "Path of War/Mystic B.pdf", "slot": "mystic-b", "name": "Mystic B" },
+        { "file": "Path of War/Zealot.pdf", "slot": "zealot", "name": "Zealot B" },
 		
         { "file": "Tome of Secrets/Artificer.pdf", "slot": "artificer", "name": "Artificer" },
         { "file": "Tome of Secrets/Priest.pdf", "slot": "priest", "name": "Priest" },
@@ -562,7 +570,7 @@
     "layout": [
         [ "Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Ultimate Intrigue" ],
         [ "Advanced Class Guide", "Mythic Adventures", "Prestige Classes", "Occult Adventures", "Pathfinder Unchained" ],
-        [ "Tome of Secrets", "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
+        [ "Tome of Secrets", "Path of War", "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
     ],
 
     "languages": [
@@ -631,6 +639,11 @@
         {
             "name": "Mythic Adventures",
             "classes": [ "Mythic" ]
+        },
+
+        {
+            "name": "Path of War",
+            "classes": [ "Stalker", "Warder", "Warlord", "Harbinger", "Mystic", "Zealot" ]
         },
 
         {
@@ -710,7 +723,7 @@
                 { "name": "Magician", "pages": [ "bard/magician" ] },
                 { "name": "Sandman", "pages": [ "bard/sandman" ] },
                 { "name": "Savage Skald", "pages": [ "bard/savageskald" ] },
-                { "name": "Sea Singer", "pages": [ "bard/seasinger" ] },
+                { "name": "Sea Singer", "pages": [ "bard/seasinger", "animalcompanion" ] },
                 { "name": "Songhealer", "pages": [ "bard/songhealer" ] },
                 { "name": "Sound Striker", "pages": [ "bard/soundstriker" ] },
                 { "name": "Street Performer", "pages": [ "bard/streetperformer" ] }
@@ -952,7 +965,8 @@
          {
             "name": "Inquisitor",
             "pages": [ "inquisitor", "inventory", "spellbook" ],
-            "skills": [ "Bluff", "Climb", "Concentration (WIS)", "Diplomacy", "Disguise", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (nature)", "Knowledge (planes)", "Knowledge (religion)", "Perception", "Ride", "Sense Motive", "Spellcraft", "Stealth", "Survival", "Swim" ]
+            "skills": [ "Bluff", "Climb", "Concentration (WIS)", "Diplomacy", "Disguise", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (nature)", "Knowledge (planes)", "Knowledge (religion)", "Perception", "Ride", "Sense Motive", "Spellcraft", "Stealth", "Survival", "Swim" ],
+            "plusHalfLevel": [ "Intimidate", "Sense Motive", "Track" ]
         },
 
         {
@@ -1220,6 +1234,42 @@
                 { "name": "Half Marshal", "pages": [ "mythic/half-marshal" ], "axes": ["Half", "Marshal"] },
                 { "name": "Half Trickster", "pages": [ "mythic/half-trickster" ], "axes": ["Half", "Trickster"] }
             ]
+        },
+
+        {
+            "name": "Stalker",
+            "pages": [ "stalker" ],
+            "skills": [ "Acrobatics", "Appraise", "Bluff", "Climb", "Disable Device", "Disguise", "Escape Artist", "Heal", "Intimidate", "Knowledge (local)", "Knowledge (martial)", "Knowledge (nature)", "Knowledge (religion)", "Perception", "Sense Motive", "Stealth" ]
+        },
+
+        {
+            "name": "Warder",
+            "pages": [ "warder" ],
+            "skills": [ "Acrobatics", "Bluff", "Climb", "Diplomacy", "Handle Animal", "Intimidate", "Knowledge (history)", "Knowledge (martial)", "Knowledge (nobility)", "Ride", "Survival" "Swim"]
+        },
+
+        {
+            "name": "Warlord",
+            "pages": [ "warlord" ],
+            "skills": [ "Acrobatics", "Climb", "Diplomacy", "Handle Animal", "Intimidate", "Knowledge (engineering)", "Knowledge (history)", "Knowledge (martial)", "Perception", "Ride", "Sense Motive", "Survival", "Swim" ]
+        },
+
+        {
+            "name": "Harbinger",
+            "pages": [ "harbinger" ],
+            "skills": [ "Acrobatics", "Autohypnosis", "Bluff", "Climb", "Diplomacy", "Fly", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (local)", "Knowledge (martial)", "Knowledge (nobility)", "Knowledge (religion)", "Linguistics", "Sense Motive", "Spellcraft", "Stealth", "Survival" ]
+        },
+
+        {
+            "name": "Mystic",
+            "pages": [ "mystic", "mystic-b" ],
+            "skills": [ "Acrobatics", "Autohypnosis", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (martial)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Perception", "Perform", "Sense Motive", "Spellcraft", "Stealth", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Zealot",
+            "pages": [ "zealot" ],
+            "skills": [ "Autohypnosis", "Bluff", "Diplomacy", "Heal", "Intimidate", "Knowledge (history)", "Knowledge (martial)", "Knowledge (nobility)", "Knowledge (psionics)", "Knowledge (religion)", "Perception", "Sense Motive" ]
         },
 
         {
