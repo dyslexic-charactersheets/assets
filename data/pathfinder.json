@@ -21,7 +21,7 @@
         { "name": "Perception", "ability": "WIS", "useUntrained": true, "favouredEnemy": true, "favouredTerrain": true },
             { "name": "Locate Traps", "subSkillOf": "Perception", "optional": true },
         { "name": "Ride", "ability": "DEX", "useUntrained": true, "acp": true },
-        { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
+        { "name": "Sense Motive", "ability": "WIS", "useUntrained": true, "favouredEnemy": true },
         { "name": "Sleight of Hand", "ability": "DEX", "acp": true, "noRage": true },
         { "name": "Spellcraft", "ability": "INT", "noRage": true },
         { "name": "Stealth", "ability": "DEX", "useUntrained": true, "acp": true, "noRage": true, "favouredTerrain": true },
@@ -30,17 +30,17 @@
         { "name": "Swim", "ability": "STR", "useUntrained": true, "acp": true },
         { "name": "Use Magic Device", "ability": "CHA", "noRage": true },
 
-        { "name": "Knowledge (arcana)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (dungeoneering)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (engineering)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
+        { "name": "Knowledge (arcana)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (dungeoneering)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (engineering)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
         { "name": "Knowledge (geography)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (history)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (local)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (nature)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (nobility)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (psionics)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (planes)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
-        { "name": "Knowledge (religion)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
+        { "name": "Knowledge (history)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (local)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (nature)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (nobility)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (psionics)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (planes)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (religion)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
 
 
         { "name": "Craft (alchemy)", "ability": "INT", "noRage": true, "afterFold": true },
@@ -437,6 +437,7 @@
         { "file": "Path of War/Mystic.pdf", "slot": "mystic", "name": "Mystic" },
             { "file": "Path of War/Mystic B.pdf", "slot": "mystic-b", "name": "Mystic B" },
         { "file": "Path of War/Zealot.pdf", "slot": "zealot", "name": "Zealot B" },
+            { "file": "Path of War/Zealot B.pdf", "slot": "zealot-b", "name": "Zealot B" },
 		
         { "file": "Tome of Secrets/Artificer.pdf", "slot": "artificer", "name": "Artificer" },
         { "file": "Tome of Secrets/Priest.pdf", "slot": "priest", "name": "Priest" },
@@ -1245,7 +1246,7 @@
         {
             "name": "Warder",
             "pages": [ "warder" ],
-            "skills": [ "Acrobatics", "Bluff", "Climb", "Diplomacy", "Handle Animal", "Intimidate", "Knowledge (history)", "Knowledge (martial)", "Knowledge (nobility)", "Ride", "Survival" "Swim"]
+            "skills": [ "Acrobatics", "Bluff", "Climb", "Diplomacy", "Handle Animal", "Intimidate", "Knowledge (history)", "Knowledge (martial)", "Knowledge (nobility)", "Ride", "Survival", "Swim"]
         },
 
         {
