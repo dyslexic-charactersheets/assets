@@ -843,7 +843,10 @@
             "skills": [ "Concentration (CHA)", "Diplomacy", "Handle Animal", "Heal", "Knowledge (nobility)", "Knowledge (religion)", "Ride", "Sense Motive", "Spellcraft" ],
             "variants": [
                 { "name": "Paladin", "pages": [ ] },
-                { "name": "Antipaladin", "pages": [ "paladin/antipaladin" ] },
+                { "name": "Antipaladin", "pages": [ "paladin/antipaladin" ], 
+                    "skills": [ "Bluff", "Disguise", "Intimidate", "Knowledge (religion)", "Stealth" ],
+                    "notSkills": [ "Diplomacy", "Heal", "Knowledge (nobility)" ]
+                    },
                 { "name": "Divine Defender", "pages": [ "paladin/divinedefender" ] },
                 { "name": "Divine Hunter", "pages": [ "paladin/divinehunter" ] },
                 { "name": "Emyreal Knight", "pages": [ "paladin/empyrealknight" ] },
