@@ -345,7 +345,8 @@
 
         { "file": "Core/Wizard.pdf", "slot": "wizard", "name": "Wizard" },
 
-        { "file": "Advanced/Alchemist.pdf", "slot": "alchemist", "name": "Alchemist`" },
+        { "file": "Advanced/Alchemist.pdf", "slot": "alchemist", "name": "Alchemist" },
+            { "file": "Extra/Extract Formulae.pdf", "slot": "alchemist-formulae", "name": "Formulae" },
         { "file": "Advanced/Cavalier.pdf", "slot": "cavalier", "name": "Cavalier" },
         { "file": "Advanced/Inquisitor.pdf", "slot": "inquisitor", "name": "Inquisitor" },
         { "file": "Advanced/Oracle.pdf", "slot": "oracle", "name": "Oracle" },
@@ -952,7 +953,7 @@
 
         {
             "name": "Alchemist",
-            "pages": [ "alchemist", "inventory", "spellbook" ],
+            "pages": [ "alchemist", "inventory", "alchemist-formulae" ],
             "skills": [ "Appraise", "Disable Device", "Fly", "Heal", "Knowledge (arcana)", "Knowledge (nature)", "Perception", "Sleight of Hand", "Spellcraft", "Survival", "Use Magic Device" ],
             "variants": [
                 { "name": "Alchemist", "pages": [ ] },
