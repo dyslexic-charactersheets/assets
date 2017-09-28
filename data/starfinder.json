@@ -1,0 +1,61 @@
+{
+    "game": "starfinder",
+    "name": "Starfinder",
+
+    "skills": [
+        { "name": "Acrobatics", "ability": "DEX", "useUntrained": true, "acp": true },
+        { "name": "Athletics", "ability": "STR", "useUntrained": true, "acp": true },
+        { "name": "Bluff", "ability": "CHA", "useUntrained": true },
+        { "name": "Computers", "ability": "INT" },
+        { "name": "Culture", "ability": "INT" },
+        { "name": "Diplomacy", "ability": "CHA", "useUntrained": true },
+        { "name": "Disguise", "ability": "CHA", "useUntrained": true },
+        { "name": "Engineering", "ability": "INT" },
+        { "name": "Intimidate", "ability": "CHA", "useUntrained": true },
+        { "name": "Life Science", "ability": "INT" },
+        { "name": "Medicine", "ability": "INT" },
+        { "name": "Mysticism", "ability": "WIS" },
+        { "name": "Perception", "ability": "WIS", "useUntrained": true },
+        { "name": "Physical Science", "ability": "INT" },
+        { "name": "Piloting", "ability": "DEX", "useUntrained": true },
+        { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
+        { "name": "Sleight of Hand", "ability": "DEX", "acp": true },
+        { "name": "Stealth", "ability": "DEX", "useUntrained": true, "acp": true },
+        { "name": "Survival", "ability": "WIS", "useUntrained": true },
+    ],
+
+    "coreSkills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Diplomacy", "Disguise", 
+        "Engineering", "Intimidate", "Life Science", "Medicine", "Mysticism", "Perception", "Physical Science",
+        "Piloting", "Sense Motive", "Sleight of Hand", "Stealth", "Survival"
+    ],
+
+    "pages": [
+        { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
+        { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
+
+        { "file": "Core/Inventory.pdf", "slot": "inventory", "name": "Inventory", "position": 53 },
+    ],
+
+    "base": {
+        "pages": [ "core", "combat", "inventory" ]
+    },
+
+    "layout": [
+        [ "Core Rulebook" ]
+    ],
+
+    "languages": [
+        { "code": "english",      "short": "gb",    "name": "English",       "ready": [  1,    1,    1,    1    ] }
+    ],
+
+    "books": [
+        {
+            "name": "Core Rulebook",
+            "classes": [ "..." ]
+        },
+    ],
+
+    "classes": [
+        
+    ]
+}
