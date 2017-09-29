@@ -36,6 +36,7 @@
         { "name": "Knowledge (geography)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true },
         { "name": "Knowledge (history)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
         { "name": "Knowledge (local)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
+        { "name": "Knowledge (martial)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
         { "name": "Knowledge (nature)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
         { "name": "Knowledge (nobility)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
         { "name": "Knowledge (psionics)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true },
@@ -84,7 +85,7 @@
 
     "knowledgeSkills": [
         "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", 
-        "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", 
+        "Knowledge (history)", "Knowledge (local)", "Knowledge (martial)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", 
         "Knowledge (psionics)", "Knowledge (religion)"
     ],
 
@@ -1200,7 +1201,7 @@
                 { "name": "Warlock", "pages": [ "vigilante/warlock" ], "skills": [ "Knowledge (arcana)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perception", "Survival" ] },
                 { "name": "Wildsoul - Avenger", "pages": [ "vigilante/wildsoul-avenger" ] },
                 { "name": "Wildsoul - Stalker", "pages": [ "vigilante/wildsoul-stalker" ] },
-                { "name": "Zealot", "pages": [ "vigilante/zealot" ], "skills": [ "Knowledge (religion)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perform", "Sleight of Hand" ] }
+                { "name": "Zealot", "pages": [ "vigilante/zealot", ], "skills": [ "Knowledge (religion)", "Spellcraft" ], "notSkills": [ "Disable Device", "Knowledge (engineering)", "Perform", "Sleight of Hand" ] }
             ]
         },
 
@@ -1283,7 +1284,7 @@
 
         {
             "name": "Zealot",
-            "pages": [ "zealot" ],
+            "pages": [ "zealot", "zealot-b" ],
             "skills": [ "Autohypnosis", "Bluff", "Diplomacy", "Heal", "Intimidate", "Knowledge (history)", "Knowledge (martial)", "Knowledge (nobility)", "Knowledge (psionics)", "Knowledge (religion)", "Perception", "Sense Motive" ]
         },
 
