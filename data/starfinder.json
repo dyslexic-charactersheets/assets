@@ -29,18 +29,32 @@
         "Piloting", "Sense Motive", "Sleight of Hand", "Stealth", "Survival"
     ],
 
+    "knowledgeSkills": [
+        "Culture", "Life Science", "Mysticism", "Physical Science"
+    ],
+
     "pages": [
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
         { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
+        { "file": "Core/Spellbook.pdf", "slot": "spellbook", "name": "Spellbook", "position": 55 },
 
-        { "file": "Core/Inventory.pdf", "slot": "inventory", "name": "Inventory", "position": 53 },
+        { "file": "Core/Envoy/Envoy.pdf", "slot": "envoy", "name": "Envoy" },
+        { "file": "Core/Mechanic/Mechanic (Drone).pdf", "slot": "mechanic", "variant": "drone", "name": "Mechanic" },
+            { "file": "Core/Mechanic/Drone.pdf", "slot": "drone", "name": "Drone" },
+        { "file": "Core/Mechanic/Exocortex.pdf", "slot": "mechanic", "variant": "exocortex", "name": "Mechanic" },
+        { "file": "Core/Mystic/Mystic.pdf", "slot": "mystic", "name": "Mystic" },
+        { "file": "Core/Operative.pdf", "slot": "operative", "name": "Operative" },
+        { "file": "Core/Solarian/Solarian.pdf", "slot": "solarian", "name": "Solarian" },
+        { "file": "Core/Soldier/Soldier.pdf", "slot": "soldier", "name": "Soldier" },
+        { "file": "Core/Technomancer.pdf", "slot": "technomancer", "name": "Technomancer" }
     ],
 
     "base": {
-        "pages": [ "core", "combat", "inventory" ]
+        "pages": [ "core", "combat" ]
     },
 
     "layout": [
+        [ "Races", "Themes" ],
         [ "Core Rulebook" ]
     ],
 
@@ -50,12 +64,130 @@
 
     "books": [
         {
+            "name": "Races",
+            "classes": [ "Android", "Human", "Ksatha", "Lashunta", "Shirren", "Vesk", "Ysoki" ]
+        },
+        {
+            "name": "Themes",
+            "classes": [ "Ace Pilot", "Bounty Hunter", "Icon", "Mercenary", "Outlaw", "Priest", "Scholar", "Spacefarer", "Xenoseeker", "Themeless" ]
+        },
+        {
             "name": "Core Rulebook",
-            "classes": [ "..." ]
+            "classes": [ "Envoy", "Mechanic", "Mystic", "Operative", "Solarian", "Soldier", "Technomancer" ]
         },
     ],
 
     "classes": [
-        
+        {
+            "name": "Android"
+        },
+        {
+            "name": "Human"
+        },
+        {
+            "name": "Ksatha",
+            "skillBonus": { "Culture": 2 },
+        },
+        {
+            "name": "Lashunta",
+            "variants": [
+                {
+                    "name": "Korasha",
+                },
+                {
+                    "name": "Damaya",
+                }
+            ]
+        },
+        {
+            "name": "Shirren",
+            "skillBonus": { "Culture": 2, "Diplomacy": 2 },
+        },
+        {
+            "name": "Vesk"
+        },
+        {
+            "name": "Ysoki",
+            "skillBonus": { "Engineering": 2, "Stealth": 2, "Survival": 2 },
+        },
+
+        {
+            "name": "Ace Pilot",
+            "skills": [ "Piloting" ]
+        },
+        {
+            "name": "Bounty Hunter",
+            "skills": [ "Survival" ]
+        },
+        {
+            "name": "Icon",
+            "skills": [ "Culture" ]
+        },
+        {
+            "name": "Mercenary",
+            "skills": [ "Athletics" ]
+        },
+        {
+            "name": "Outlaw",
+            "skills": [ "Sleight of Hand" ]
+        },
+        {
+            "name": "Priest",
+            "skills": [ "Mysticism" ]
+        },
+        {
+            "name": "Scholar"
+        },
+        {
+            "name": "Spacefarer",
+            "skills": [ "Physical Science" ]
+        },
+        {
+            "name": "Xenoseeker",
+            "skills": [ "Life Science" ]
+        },
+        {
+            "name": "Themeless"
+        },
+
+        {
+            "name": "Envoy",
+            "pages": [ "envoy" ],
+            "skills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Diplomacy", "Disguise", "Engineering", "Intimidate", "Medicine", "Perception", "Piloting", "Profession", "Sense Motive", "Sleight of Hand", "Stealth" ]
+        },
+        {
+            "name": "Mechanic",
+            "pages": [ "mechanic" ],
+            "skills": [ "Athletics", "Computers", "Engineering", "Medicine", "Perception", "Physical Science", "Piloting", "Profession" ],
+            "variants": [
+                { "name": "Drone", "pages": [ "mechanic/drone", "drone" ] },
+                { "name": "Exocortex", "pages": [ "mechanic/exocortex" ] }
+            ]
+        },
+        {
+            "name": "Mystic",
+            "pages": [ "mystic", "spellbook" ],
+            "skills": [ "Bluff", "Culture", "Diplomacy", "Disguise", "Intimidate", "Life Science", "Medicine", "Mysticism", "Perception", "Profession", "Sense Motive", "Survival" ]
+        },
+        {
+            "name": "Operative",
+            "pages": [ "operative" ],
+            "skills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Disguise", "Engineering", "Intimidate", "Medicine", "Perception", "Piloting", "Profession", "Sense Motive", "Sleight of Hand", "Stealth", "Survival" ]
+        },
+        {
+            "name": "Solarian",
+            "pages": [ "solarian" ],
+            "skills": [ "Acrobatics", "Athletics", "Diplomacy", "Intimidate", "Mysticism", "Perception", "Physical Science", "Profession", "Sense Motive", "Stealth" ]
+        },
+        {
+            "name": "Soldier",
+            "pages": [ "soldier" ],
+            "skills": [ "Acrobatics", "Athletics", "Engineering", "Intimidate", "Medicine", "Piloting", "Profession", "Survival" ]
+        },
+        {
+            "name": "Technomancer",
+            "pages": [ "technomancer", "spellbook" ],
+            "skills": [ "Computers", "Engineering", "Life Science", "Mysticism", "Physical Science", "Piloting", "Profession", "Sleight of Hand" ]
+        }
     ]
 }
