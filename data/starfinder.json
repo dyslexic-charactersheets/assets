@@ -21,10 +21,15 @@
         { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
         { "name": "Sleight of Hand", "ability": "DEX", "acp": true },
         { "name": "Stealth", "ability": "DEX", "useUntrained": true, "acp": true },
-        { "name": "Survival", "ability": "WIS", "useUntrained": true },
+        { "name": "Survival", "ability": "WIS", "useUntrained": true }
     ],
 
     "coreSkills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Diplomacy", "Disguise", 
+        "Engineering", "Intimidate", "Life Science", "Medicine", "Mysticism", "Perception", "Physical Science",
+        "Piloting", "Sense Motive", "Sleight of Hand", "Stealth", "Survival"
+    ],
+
+    "summarySkills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Diplomacy", "Disguise", 
         "Engineering", "Intimidate", "Life Science", "Medicine", "Mysticism", "Perception", "Physical Science",
         "Piloting", "Sense Motive", "Sleight of Hand", "Stealth", "Survival"
     ],
@@ -33,15 +38,20 @@
         "Culture", "Life Science", "Mysticism", "Physical Science"
     ],
 
+    "droneSkills": [
+        "Acrobatics", "Athletics", "Computers", "Engineering", "Perception", "Stealth"
+    ],
+
     "pages": [
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
         { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
         { "file": "Core/Spellbook.pdf", "slot": "spellbook", "name": "Spellbook", "position": 55 },
+        { "file": "Core/Computer.pdf", "slot": "computer", "name": "Computer", "position": 65 },
 
         { "file": "Core/Envoy/Envoy.pdf", "slot": "envoy", "name": "Envoy" },
-        { "file": "Core/Mechanic/Mechanic (Drone).pdf", "slot": "mechanic", "variant": "drone", "name": "Mechanic" },
-            { "file": "Core/Mechanic/Drone.pdf", "slot": "drone", "name": "Drone" },
-        { "file": "Core/Mechanic/Exocortex.pdf", "slot": "mechanic", "variant": "exocortex", "name": "Mechanic" },
+        { "file": "Core/Mechanic/Mechanic.pdf", "slot": "mechanic", "name": "Mechanic" },
+            { "file": "Core/Mechanic/Mechanic Drone.pdf", "slot": "drone", "name": "Drone" },
+            { "file": "Core/Mechanic/Mechanic Exocortex.pdf", "slot": "exocortex", "name": "Exocortex" },
         { "file": "Core/Mystic/Mystic.pdf", "slot": "mystic", "name": "Mystic" },
         { "file": "Core/Operative.pdf", "slot": "operative", "name": "Operative" },
         { "file": "Core/Solarian/Solarian.pdf", "slot": "solarian", "name": "Solarian" },
@@ -49,12 +59,25 @@
         { "file": "Core/Technomancer.pdf", "slot": "technomancer", "name": "Technomancer" }
     ],
 
+    "gm": {
+        "characters": [
+        ],
+        "campaign": [
+        ],
+        "maps": {
+            "2d": [ ],
+            "3d": [ ]
+        },
+        "kingdom": [
+        ]
+    },
+
     "base": {
         "pages": [ "core", "combat" ]
     },
 
     "layout": [
-        [ "Races", "Themes" ],
+        [ "Themes" ],
         [ "Core Rulebook" ]
     ],
 
@@ -65,16 +88,18 @@
     "books": [
         {
             "name": "Races",
+            "radio": true,
             "classes": [ "Android", "Human", "Ksatha", "Lashunta", "Shirren", "Vesk", "Ysoki" ]
         },
         {
             "name": "Themes",
+            "radio": true,
             "classes": [ "Ace Pilot", "Bounty Hunter", "Icon", "Mercenary", "Outlaw", "Priest", "Scholar", "Spacefarer", "Xenoseeker", "Themeless" ]
         },
         {
             "name": "Core Rulebook",
             "classes": [ "Envoy", "Mechanic", "Mystic", "Operative", "Solarian", "Soldier", "Technomancer" ]
-        },
+        }
     ],
 
     "classes": [
@@ -86,29 +111,29 @@
         },
         {
             "name": "Ksatha",
-            "skillBonus": { "Culture": 2 },
+            "skillBonus": { "Culture": 2 }
         },
         {
             "name": "Lashunta",
             "variants": [
                 {
-                    "name": "Korasha",
+                    "name": "Korasha"
                 },
                 {
-                    "name": "Damaya",
+                    "name": "Damaya"
                 }
             ]
         },
         {
             "name": "Shirren",
-            "skillBonus": { "Culture": 2, "Diplomacy": 2 },
+            "skillBonus": { "Culture": 2, "Diplomacy": 2 }
         },
         {
             "name": "Vesk"
         },
         {
             "name": "Ysoki",
-            "skillBonus": { "Engineering": 2, "Stealth": 2, "Survival": 2 },
+            "skillBonus": { "Engineering": 2, "Stealth": 2, "Survival": 2 }
         },
 
         {
@@ -157,12 +182,8 @@
         },
         {
             "name": "Mechanic",
-            "pages": [ "mechanic" ],
-            "skills": [ "Athletics", "Computers", "Engineering", "Medicine", "Perception", "Physical Science", "Piloting", "Profession" ],
-            "variants": [
-                { "name": "Drone", "pages": [ "mechanic/drone", "drone" ] },
-                { "name": "Exocortex", "pages": [ "mechanic/exocortex" ] }
-            ]
+            "pages": [ "mechanic", "drone", "exocortex", "computer" ],
+            "skills": [ "Athletics", "Computers", "Engineering", "Medicine", "Perception", "Physical Science", "Piloting", "Profession" ]
         },
         {
             "name": "Mystic",
