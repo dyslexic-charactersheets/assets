@@ -45,7 +45,6 @@
     "pages": [
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
         { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
-        { "file": "Core/Spellbook.pdf", "slot": "spellbook", "name": "Spellbook", "position": 55 },
         { "file": "Core/Computer.pdf", "slot": "computer", "name": "Computer", "position": 65 },
 
         { "file": "Core/Envoy/Envoy.pdf", "slot": "envoy", "name": "Envoy" },
@@ -53,10 +52,15 @@
             { "file": "Core/Mechanic/Mechanic Drone.pdf", "slot": "drone", "name": "Drone" },
             { "file": "Core/Mechanic/Mechanic Exocortex.pdf", "slot": "exocortex", "name": "Exocortex" },
         { "file": "Core/Mystic/Mystic.pdf", "slot": "mystic", "name": "Mystic" },
-        { "file": "Core/Operative.pdf", "slot": "operative", "name": "Operative" },
+        { "file": "Core/Operative/Operative.pdf", "slot": "operative", "name": "Operative" },
         { "file": "Core/Solarian/Solarian.pdf", "slot": "solarian", "name": "Solarian" },
         { "file": "Core/Soldier/Soldier.pdf", "slot": "soldier", "name": "Soldier" },
-        { "file": "Core/Technomancer.pdf", "slot": "technomancer", "name": "Technomancer" }
+        { "file": "Core/Technomancer/Technomancer.pdf", "slot": "technomancer", "name": "Technomancer" },
+
+        { "file": "Extra/Spell Book.pdf", "slot": "spellbook", "name": "Spellbook" },
+        { "file": "Extra/Spell Book (Large).pdf", "slot": "spellbook", "variant": "large", "name": "Spellbook" },
+        { "file": "Extra/Spell Book (Dense).pdf", "slot": "spellbook", "variant": "small", "name": "Spellbook" }
+
     ],
 
     "gm": {
@@ -65,7 +69,9 @@
         "campaign": [
         ],
         "maps": {
-            "2d": [ ],
+            "2d": [
+                { "file": "Maps/Hex A4.pdf", "slot": "hex-a4", "name": "Map - Hex A4 Portrait" }
+            ],
             "3d": [ ]
         },
         "kingdom": [
