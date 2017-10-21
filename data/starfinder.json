@@ -21,7 +21,50 @@
         { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
         { "name": "Sleight of Hand", "ability": "DEX", "acp": true },
         { "name": "Stealth", "ability": "DEX", "useUntrained": true, "acp": true },
-        { "name": "Survival", "ability": "WIS", "useUntrained": true }
+        { "name": "Survival", "ability": "WIS", "useUntrained": true },
+
+        { "name": "Profession (actor)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (artist)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (comedian)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (con artist)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (courtesan)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (dancer)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (musician)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (orator)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (poet)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (politician)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (video)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (personality)", "ability": "CHA", "noRage": true, "afterFold": true },
+        { "name": "Profession (writer)", "ability": "CHA", "noRage": true, "afterFold": true },
+
+        { "name": "Profession (accountant)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (archaeologist)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (architect)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (corporate)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (professional)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (electrician)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (lab technician)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (lawyer)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (mathematician)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (philosopher)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (professor)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (psychologist)", "ability": "INT", "noRage": true, "afterFold": true },
+        { "name": "Profession (vidgamer)", "ability": "INT", "noRage": true, "afterFold": true },
+
+        { "name": "Profession (bounty hunter)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (cook)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (counselor)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (dockworker)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (farmer)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (gambler)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (general contractor)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (herbalist)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (maintenance worker)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (manager)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (mercenary)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (merchant)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (miner)", "ability": "WIS", "noRage": true, "afterFold": true },
+        { "name": "Profession (smuggler)", "ability": "WIS", "noRage": true, "afterFold": true }
     ],
 
     "coreSkills": [ "Acrobatics", "Athletics", "Bluff", "Computers", "Culture", "Diplomacy", "Disguise", 
@@ -43,6 +86,8 @@
     ],
 
     "pages": [
+        { "file": "Core/Build a character.pdf", "slot": "build", "name": "Build a character" },
+
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
         { "file": "Core/Combat.pdf", "slot": "combat", "name": "Combat" },
         { "file": "Core/Computer.pdf", "slot": "computer", "name": "Computer", "position": 65 },
@@ -59,8 +104,14 @@
 
         { "file": "Extra/Spell Book.pdf", "slot": "spellbook", "name": "Spellbook" },
         { "file": "Extra/Spell Book (Large).pdf", "slot": "spellbook", "variant": "large", "name": "Spellbook" },
-        { "file": "Extra/Spell Book (Dense).pdf", "slot": "spellbook", "variant": "small", "name": "Spellbook" }
+        { "file": "Extra/Spell Book (Dense).pdf", "slot": "spellbook", "variant": "small", "name": "Spellbook" },
 
+        { "file": "Extra/Mini (Small).pdf", "slot": "mini", "variant": "small", "name": "Mini (Small)" },
+        { "file": "Extra/Mini (Medium).pdf", "slot": "mini", "variant": "medium", "name": "Mini (Medium)" },
+        { "file": "Extra/Mini (Large).pdf", "slot": "mini", "variant": "large", "name": "Mini (Large)" },
+        { "file": "Extra/Mini (Small).pdf", "slot": "mini-drone", "variant": "small", "name": "Drone Mini (Small)" },
+        { "file": "Extra/Mini (Medium).pdf", "slot": "mini-drone", "variant": "medium", "name": "Drone Mini (Medium)" },
+        { "file": "Extra/Mini (Large).pdf", "slot": "mini-drone", "variant": "large", "name": "Drone Mini (Large)" }
     ],
 
     "gm": {
@@ -79,7 +130,7 @@
     },
 
     "base": {
-        "pages": [ "core", "combat" ]
+        "pages": [ "build", "core", "combat" ]
     },
 
     "layout": [
