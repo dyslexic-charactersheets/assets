@@ -6,18 +6,18 @@
         { "name": "Acrobatics", "ability": "DEX", "useUntrained": true, "acp": true },
         { "name": "Athletics", "ability": "STR", "useUntrained": true, "acp": true },
         { "name": "Bluff", "ability": "CHA", "useUntrained": true },
-        { "name": "Computers", "ability": "INT" },
+        { "name": "Computers", "ability": "INT", "highlight": true },
         { "name": "Culture", "ability": "INT" },
-        { "name": "Diplomacy", "ability": "CHA", "useUntrained": true },
+        { "name": "Diplomacy", "ability": "CHA", "useUntrained": true, "highlight": true },
         { "name": "Disguise", "ability": "CHA", "useUntrained": true },
-        { "name": "Engineering", "ability": "INT" },
-        { "name": "Intimidate", "ability": "CHA", "useUntrained": true },
+        { "name": "Engineering", "ability": "INT", "highlight": true },
+        { "name": "Intimidate", "ability": "CHA", "useUntrained": true, "highlight": true },
         { "name": "Life Science", "ability": "INT" },
         { "name": "Medicine", "ability": "INT" },
         { "name": "Mysticism", "ability": "WIS" },
         { "name": "Perception", "ability": "WIS", "useUntrained": true },
         { "name": "Physical Science", "ability": "INT" },
-        { "name": "Piloting", "ability": "DEX", "useUntrained": true },
+        { "name": "Piloting", "ability": "DEX", "useUntrained": true, "highlight": true, "boxRanks": true },
         { "name": "Sense Motive", "ability": "WIS", "useUntrained": true },
         { "name": "Sleight of Hand", "ability": "DEX", "acp": true },
         { "name": "Stealth", "ability": "DEX", "useUntrained": true, "acp": true },
@@ -130,7 +130,7 @@
     },
 
     "base": {
-        "pages": [ "build", "core", "combat" ]
+        "pages": [ "core", "combat" ]
     },
 
     "layout": [
