@@ -346,7 +346,8 @@
             { "file": "Archetypes/Sorcerer/Tattooed Sorcerer.pdf", "slot": "sorcerer", "variant": "tattooed", "name": "Tattooed Sorcerer" },
             { "file": "Archetypes/Sorcerer/Wildblooded.pdf", "slot": "sorcerer", "variant": "wildblooded", "name": "Wildblooded Sorcerer" },
 
-        { "file": "Core/Wizard.pdf", "slot": "wizard", "name": "Wizard" },
+        { "file": "Core/Wizard/Wizard (Familiar).pdf", "slot": "wizard", "variant": "familiar", "name": "Wizard" },
+        { "file": "Core/Wizard/Wizard (Bonded Object).pdf", "slot": "wizard", "variant": "bondedobject", "name": "Wizard" },
 
         { "file": "Advanced/Alchemist.pdf", "slot": "alchemist", "name": "Alchemist" },
             { "file": "Extra/Extract Formulae.pdf", "slot": "alchemist-formulae", "name": "Formulae" },
@@ -952,8 +953,13 @@
 
         {
             "name": "Wizard",
-            "pages": [ "wizard", "inventory/without", "spellbook", "animalcompanion" ],
-            "skills": [ "Appraise", "Concentration (INT)", "Fly", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Spellcraft" ]
+            "pages": [ "wizard", "inventory/with", "spellbook" ],
+            "skills": [ "Appraise", "Concentration (INT)", "Fly", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Spellcraft" ],
+
+            "variants": [
+                { "name": "Wizard (Familiar)", "pages": [ "wizard/familiar", "animalcompanion" ] },
+                { "name": "Wizard (Bonded Object)", "pages": [ "wizard/bondedobject" ] }
+            ]
         },
 
         {
