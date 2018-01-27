@@ -245,9 +245,20 @@
             { "file": "Archetypes/Druid/World Walker (Domain).pdf", "slot": "druid", "variant": "worldwalker/domain", "name": "World Walker (Domain)" },
                 { "file": "Archetypes/Druid/World Walker - Character Info.pdf", "slot": "core", "variant": "worldwalker", "name": "Character Info" },
 
-        { "file": "Core/Fighter/Fighter.pdf", "slot": "fighter", "name": "Fighter (Melee)" },
+        { "file": "Core/Fighter/Fighter.pdf", "slot": "fighter", "name": "Fighter" },
             { "file": "Core/Fighter/Melee.pdf", "slot": "fighter-maths", "variant": "melee", "name": "Melee" },
             { "file": "Core/Fighter/Ranged.pdf", "slot": "fighter-maths", "variant": "ranged", "name": "Ranged" },
+            { "file": "Archetypes/Fighter/Armour Master.pdf", "slot": "fighter", "variant": "armourmaster", "name": "Armour Master" },
+            { "file": "Archetypes/Fighter/Brawler.pdf", "slot": "fighter", "variant": "brawler", "name": "Brawler" },
+            { "file": "Archetypes/Fighter/Cad.pdf", "slot": "fighter", "variant": "cad", "name": "Cad" },
+            { "file": "Archetypes/Fighter/Dragoon.pdf", "slot": "fighter", "variant": "dragoon", "name": "Dragoon" },
+            { "file": "Archetypes/Fighter/Gladiator.pdf", "slot": "fighter", "variant": "gladiator", "name": "Gladiator" },
+            { "file": "Archetypes/Fighter/Tactician.pdf", "slot": "fighter", "variant": "tactician", "name": "Tactician" },
+            { "file": "Archetypes/Fighter/Thunderstriker.pdf", "slot": "fighter", "variant": "thunderstriker", "name": "Thunderstriker" },
+            { "file": "Archetypes/Fighter/Tower Shield Specialist.pdf", "slot": "fighter", "variant": "towershield", "name": "Tower Shield Specialist" },
+            { "file": "Archetypes/Fighter/Unarmed Fighter.pdf", "slot": "fighter", "variant": "unarmed", "name": "Unarmed Fighter" },
+            { "file": "Archetypes/Fighter/Unbreakable.pdf", "slot": "fighter", "variant": "unbreakable", "name": "Unbreakable" },
+            { "file": "Archetypes/Fighter/Viking.pdf", "slot": "fighter", "variant": "viking", "name": "Viking" },
 
         { "file": "Core/Monk/Monk - Combat.pdf", "slot": "combat", "variant": "monk", "name": "Monk", "position": 11 },
           { "file": "Core/Monk/Monk.pdf", "slot": "monk", "name": "Monk" },
@@ -815,12 +826,35 @@
             "pages": [ "fighter", "inventory" ],
             "skills": [ "Climb", "Handle Animal", "Intimidate", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Ride", "Survival", "Swim" ],
             "axes": [
-                ["Fighter"],
+                ["Fighter", "Armour Master", "Brawler", "Cad", "Dragoon", "Gladiator", "Tactician", "Thunderstriker", "Tower Shield Specialist", "Unarmed Fighter", "Unbreakable", "Viking"],
                 ["Melee", "Ranged"]
             ],
             "variants": [
                 { "name": "Fighter (Melee)", "pages": [ "fighter", "fighter-maths/melee" ], "axes": ["Fighter", "Melee"] },
-                { "name": "Fighter (Ranged)", "pages": [ "fighter", "fighter-maths/ranged" ], "axes": ["Fighter", "Ranged"] }
+                { "name": "Fighter (Ranged)", "pages": [ "fighter", "fighter-maths/ranged" ], "axes": ["Fighter", "Ranged"] },
+
+                { "name": "Armour Master (Melee)", "pages": [ "fighter/armourmaster", "fighter-maths/melee" ], "axes": ["Armour Master", "Melee"] },
+                { "name": "Armour Master (Ranged)", "pages": [ "fighter/armourmaster", "fighter-maths/ranged" ], "axes": ["Armour Master", "Ranged"] },
+                { "name": "Brawler (Melee)", "pages": [ "fighter/brawler", "fighter-maths/melee" ], "axes": ["Brawler", "Melee"] },
+                { "name": "Brawler (Ranged)", "pages": [ "fighter/brawler", "fighter-maths/ranged" ], "axes": ["Brawler", "Ranged"] },
+                { "name": "Cad (Melee)", "pages": [ "fighter/cad", "fighter-maths/melee" ], "axes": ["Cad", "Melee"], "skills": [ "Acrobatics", "Bluff", "Escape Artist", "Sleight of Hand", "Stealth" ] },
+                { "name": "Cad (Ranged)", "pages": [ "fighter/cad", "fighter-maths/ranged" ], "axes": ["Cad", "Ranged"], "skills": [ "Acrobatics", "Bluff", "Escape Artist", "Sleight of Hand", "Stealth" ] },
+                { "name": "Dragoon (Melee)", "pages": [ "fighter/dragoon", "fighter-maths/melee" ], "axes": ["Dragoon", "Melee"] },
+                { "name": "Dragoon (Ranged)", "pages": [ "fighter/dragoon", "fighter-maths/ranged" ], "axes": ["Dragoon", "Ranged"] },
+                { "name": "Gladiator (Melee)", "pages": [ "fighter/gladiator", "fighter-maths/melee" ], "axes": ["Gladiator", "Melee"], "skills": [ "Perform (act)", "Perform (comedy)", "Perform (dance)" ] },
+                { "name": "Gladiator (Ranged)", "pages": [ "fighter/gladiator", "fighter-maths/ranged" ], "axes": ["Gladiator", "Ranged"], "skills": [ "Perform (act)", "Perform (comedy)", "Perform (dance)" ] },
+                { "name": "Tactician (Melee)", "pages": [ "fighter/tactician", "fighter-maths/melee" ], "axes": ["Tactician", "Melee"] },
+                { "name": "Tactician (Ranged)", "pages": [ "fighter/tactician", "fighter-maths/ranged" ], "axes": ["Tactician", "Ranged"] },
+                { "name": "Thunderstriker (Melee)", "pages": [ "fighter/thunderstriker", "fighter-maths/melee" ], "axes": ["Thunderstriker", "Melee"] },
+                { "name": "Thunderstriker (Ranged)", "pages": [ "fighter/thunderstriker", "fighter-maths/ranged" ], "axes": ["Thunderstriker", "Ranged"] },
+                { "name": "Tower Shield Specialist (Melee)", "pages": [ "fighter/towershield", "fighter-maths/melee" ], "axes": ["Tower Shield Specialist", "Melee"] },
+                { "name": "Tower Shield Specialist (Ranged)", "pages": [ "fighter/towershield", "fighter-maths/ranged" ], "axes": ["Tower Shield Specialist", "Ranged"] },
+                { "name": "Unarmed Fighter (Melee)", "pages": [ "fighter/unarmed", "fighter-maths/melee" ], "axes": ["Unarmed Fighter", "Melee"] },
+                { "name": "Unarmed Fighter (Ranged)", "pages": [ "fighter/unarmed", "fighter-maths/ranged" ], "axes": ["Unarmed Fighter", "Ranged"] },
+                { "name": "Unbreakable (Melee)", "pages": [ "fighter/unbreakable", "fighter-maths/melee" ], "axes": ["Unbreakable", "Melee"] },
+                { "name": "Unbreakable (Ranged)", "pages": [ "fighter/unbreakable", "fighter-maths/ranged" ], "axes": ["Unbreakable", "Ranged"] },
+                { "name": "Viking (Melee)", "pages": [ "fighter/viking", "fighter-maths/melee" ], "axes": ["Viking", "Melee"] },
+                { "name": "Viking (Ranged)", "pages": [ "fighter/viking", "fighter-maths/ranged" ], "axes": ["Viking", "Ranged"] }
             ]
         },
 
