@@ -420,6 +420,7 @@
             { "file": "Unchained/Summoner/Eidolon.pdf", "slot": "eidolon", "variant": "unchained-summoner", "name": "Eidolon", "near": "unchained-summoner" },
             { "file": "Unchained/Summoner/Eidolon - Combat.pdf", "slot": "eidoloncombat", "variant": "unchained-summoner", "name": "Eidolon Combat", "position": 11 },
 
+        { "file": "Ultimate Wilderness/Shifter.pdf", "slot": "shifter", "name": "Shifter" },
 
 
         { "file": "Psionics/Psionics - Inventory.pdf", "slot": "inventory", "variant": "psionic", "name": "Inventory (Psionic)", "position": 53 },
@@ -578,7 +579,7 @@
 
     "layout": [
         [ "Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Ultimate Intrigue" ],
-        [ "Advanced Class Guide", "Mythic Adventures", "Prestige Classes", "Occult Adventures", "Pathfinder Unchained" ],
+        [ "Advanced Class Guide", "Mythic Adventures", "Prestige Classes", "Occult Adventures", "Pathfinder Unchained", "Ultimate Wilderness" ],
         [ "Tome of Secrets", "Path of War", "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
     ],
 
@@ -638,6 +639,11 @@
         {
             "name": "Pathfinder Unchained",
             "classes": [ "Unchained Barbarian", "Unchained Monk", "Unchained Rogue", "Unchained Summoner" ]
+        },
+
+        {
+            "name": "Ultimate Wilderness",
+            "classes": [ "Shifter" ]
         },
 
         {
@@ -1259,6 +1265,12 @@
                 { "name": "Half Marshal", "pages": [ "mythic/half-marshal" ], "axes": ["Half", "Marshal"] },
                 { "name": "Half Trickster", "pages": [ "mythic/half-trickster" ], "axes": ["Half", "Trickster"] }
             ]
+        },
+
+        {
+            "name": "Shifter",
+            "pages": [ "combat/monk", "shifter", "wildshape" ],
+            "skills": [ "Acrobatics", "Climb", "Fly", "Handle Animal", "Knowledge (nature)", "Perception", "Profession", "Ride", "Stealth", "Survival", "Swim" ]
         },
 
         {
