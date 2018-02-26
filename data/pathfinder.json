@@ -433,6 +433,7 @@
             { "file": "Unchained/Summoner/Eidolon - Combat.pdf", "slot": "eidoloncombat", "variant": "unchained-summoner", "name": "Eidolon Combat", "position": 11 },
 
         { "file": "Ultimate Wilderness/Shifter.pdf", "slot": "shifter", "name": "Shifter" },
+            { "file": "Ultimate Wilderness/Shifter - Combat.pdf", "slot": "combat", "variant": "shifter", "name": "Combat", "position": 11 },
 
 
         { "file": "Psionics/Psionics - Inventory.pdf", "slot": "inventory", "variant": "psionic", "name": "Inventory (Psionic)", "position": 53 },
@@ -1306,7 +1307,7 @@
 
         {
             "name": "Shifter",
-            "pages": [ "combat/monk", "shifter", "wildshape" ],
+            "pages": [ "combat/shifter", "shifter", "wildshape" ],
             "skills": [ "Acrobatics", "Climb", "Fly", "Handle Animal", "Knowledge (nature)", "Perception", "Profession", "Ride", "Stealth", "Survival", "Swim" ]
         },
 
