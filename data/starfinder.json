@@ -104,10 +104,11 @@
 
         { "file": "Starship/Starship.pdf", "slot": "starship", "name": "Starship" },
         { "file": "Starship/Starship Crew.pdf", "slot": "starship-crew", "name": "Starship Crew" },
+        { "file": "Starship/Starship Crew Cards.pdf", "slot": "starship-crewcards", "name": "Starship Crew Cards" },
         { "file": "Starship/Starship Funds.pdf", "slot": "starship-funds", "name": "Starship Funds" },
         { "file": "Starship/Starship Mini.pdf", "slot": "mini-starship", "name": "Starship Mini" },
 
-        { "file": "Extra/Permission to Print.pdf", "slot": "permission", "name": "Permission to Print" },
+        { "file": "Extra/Permission to Print.pdf", "slot": "permission", "name": "Permission to Print", "position": -1 },
 
         { "file": "Extra/Character Background.pdf", "slot": "background", "name": "Character Background" },
         { "file": "Extra/Spell Book.pdf", "slot": "spellbook", "name": "Spellbook" },
@@ -182,7 +183,7 @@
     "classes": [
         {
             "name": "Starship",
-            "pages": [ "starship", "starship-crew", "starship-funds", "mini-starship", "computer" ]
+            "pages": [ "starship", "starship-crew", "starship-crewcards", "starship-funds", "mini-starship", "computer" ]
         },
 
         {

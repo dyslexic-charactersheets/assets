@@ -211,7 +211,7 @@
         { "file": "Core/Druid/Druid.pdf", "slot": "druid", "name": "Druid" },
           { "file": "Core/Druid/Druid (Animal Companion).pdf", "slot": "druid", "variant": "animalcompanion", "name": "Druid with Animal Companion" },
           { "file": "Core/Druid/Druid (Domain).pdf", "slot": "druid", "variant": "domain", "name": "Domain Druid" },
-          { "file": "Core/Druid/Wild Shape.pdf", "slot": "wildshape", "name": "Wild Shape", "position": 47 },
+          { "file": "Core/Druid/Wild Shape.pdf", "slot": "wildshape", "name": "Wild Shape", "a5": true, "position": 47 },
             { "file": "Archetypes/Druid/Shaman (Animal Companion).pdf", "slot": "druid", "variant": "shaman/animalcompanion", "name": "Shaman (Animal Companion)" },
             { "file": "Archetypes/Druid/Shaman (Domain).pdf", "slot": "druid", "variant": "shaman/domain", "name": "Shaman (Domain)" },
             { "file": "Archetypes/Druid/Aquatic Druid (Animal Companion).pdf", "slot": "druid", "variant": "aquatic/animalcompanion", "name": "Aquatic Druid (Animal Companion)" },
@@ -501,7 +501,7 @@
         { "file": "NeoExodus/Prestige Classes/Panther Warrior.pdf", "slot": "pantherwarrior", "name": "Panther Warrior" },
         { "file": "NeoExodus/Prestige Classes/Wyrdcaster.pdf", "slot": "wyrdcaster", "name": "Wyrdcaster" },
 
-        { "file": "Extra/Permission to Print.pdf", "slot": "permission", "name": "Permission to Print" },
+        { "file": "Extra/Permission to Print.pdf", "slot": "permission", "name": "Permission to Print", "position": -1 },
 
         { "file": "Extra/Character Background - Extra.pdf", "slot": "background", "name": "Character Background" },
         { "file": "Extra/Character Background - Pathfinder Society.pdf", "slot": "background", "variant": "pathfindersociety", "name": "Character Background (Pathfinder Society)" },
