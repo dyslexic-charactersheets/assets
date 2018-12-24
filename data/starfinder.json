@@ -93,6 +93,8 @@
         { "file": "Core/Computer.pdf", "slot": "computer", "name": "Computer", "position": 65, "a5": true },
 
         { "file": "Core/Envoy/Envoy.pdf", "slot": "envoy", "name": "Envoy" },
+            { "file": "Core/Envoy/Envoy - 2 4 6.pdf", "slot": "envoy", "variant": "2-4-6", "name": "Envoy" },
+            { "file": "Core/Envoy/Envoy - 2 4 6 9 12 18.pdf", "slot": "envoy", "variant": "2-4-6-9-12-18", "name": "Envoy" },
         { "file": "Core/Mechanic/Mechanic.pdf", "slot": "mechanic", "name": "Mechanic" },
             { "file": "Core/Mechanic/Drone.pdf", "slot": "drone", "name": "Drone", "a5": true },
             { "file": "Core/Mechanic/Exocortex.pdf", "slot": "exocortex", "name": "Exocortex", "a5": true },
@@ -101,6 +103,16 @@
         { "file": "Core/Solarian/Solarian.pdf", "slot": "solarian", "name": "Solarian" },
         { "file": "Core/Soldier/Soldier.pdf", "slot": "soldier", "name": "Soldier" },
         { "file": "Core/Technomancer/Technomancer.pdf", "slot": "technomancer", "name": "Technomancer" },
+
+        { "file": "Archetypes/Arcanamirium Sage.pdf", "slot": "archetype-arcanamirium-sage", "name": "Arcanamirium Sage", "a5": true },
+        { "file": "Archetypes/Augmented.pdf", "slot": "archetype-augmented", "name": "Augmented", "a5": true },
+        { "file": "Archetypes/Divine Champion.pdf", "slot": "archetype-divine-champion", "name": "Divine Champion", "a5": true },
+        { "file": "Archetypes/Phrenic Adept.pdf", "slot": "archetype-phrenic-adept", "name": "Phrenic Adept", "a5": true },
+        { "file": "Archetypes/Skyfire Centurion.pdf", "slot": "archetype-skyfire-centurion", "name": "Skyfire Centurion", "a5": true },
+        { "file": "Archetypes/Star Knight.pdf", "slot": "archetype-star-knight", "name": "Star Knight", "a5": true },
+        { "file": "Archetypes/Starfinder Data Jockey.pdf", "slot": "archetype-statfinder-data-jockey", "name": "Starfinder Data Jockey", "a5": true },
+        { "file": "Archetypes/Starfinder Forerunner.pdf", "slot": "archetype-starfinder-forerunner", "name": "Starfinder Forerunner", "a5": true },
+        { "file": "Archetypes/Steward Officer.pdf", "slot": "archetype-steward-officer", "name": "Steward Officer", "a5": true },
 
         { "file": "Starship/Starship.pdf", "slot": "starship", "name": "Starship" },
         { "file": "Starship/Starship Crew.pdf", "slot": "starship-crew", "name": "Starship Crew" },
@@ -156,7 +168,8 @@
 
     "layout": [
         [ "Themes" ],
-        [ "Core Rulebook" ]
+        [ "Core Rulebook" ],
+        [ "Archetypes" ]
     ],
 
     "languages": [
@@ -177,6 +190,10 @@
         {
             "name": "Core Rulebook",
             "classes": [ "Envoy", "Mechanic", "Mystic", "Operative", "Solarian", "Soldier", "Technomancer" ]
+        },
+        {
+            "name": "Archetypes",
+            "classes": [ "Arcanamirium Sage", "Augmented", "Divine Champion", "Phrenic Adept", "Skyfire Centurion", "Star Knight", "Starfinder Data Jockey", "Starfinder Forerunner", "Steward Officer" ]
         }
     ],
 
@@ -292,6 +309,52 @@
             "name": "Technomancer",
             "pages": [ "technomancer", "spellbook" ],
             "skills": [ "Computers", "Engineering", "Life Science", "Mysticism", "Physical Science", "Piloting", "Profession", "Sleight of Hand" ]
+        },
+
+        {
+            "name": "Arcanamirium Sage",
+            "pages": [ "archetype-arcanamirium-sage" ],
+            "skills": []
+        },
+        {
+            "name": "Augmented",
+            "pages": [ "archetype-augmented" ],
+            "skills": []
+        },
+        {
+            "name": "Divine Champion",
+            "pages": [ "archetype-divine-champion" ],
+            "skills": []
+        },
+        {
+            "name": "Phrenic Adept",
+            "pages": [ "archetype-phrenic-adept" ],
+            "skills": []
+        },
+        {
+            "name": "Skyfire Centurion",
+            "pages": [ "archetype-skyfire-centurion" ],
+            "skills": []
+        },
+        {
+            "name": "Star Knight",
+            "pages": [ "archetype-star-knight" ],
+            "skills": []
+        },
+        {
+            "name": "Starfinder Data Jockey",
+            "pages": [ "archetype-starfinder-data-jockey" ],
+            "skills": []
+        },
+        {
+            "name": "Starfinder Forerunner",
+            "pages": [ "archetype-starfinder-forerunner" ],
+            "skills": []
+        },
+        {
+            "name": "Steward Officer",
+            "pages": [ "archetype-steward-officer" ],
+            "skills": []
         }
     ]
 }
