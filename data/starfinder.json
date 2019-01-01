@@ -167,7 +167,7 @@
     },
 
     "layout": [
-        [ "Themes" ],
+        [ "Themes", "Pact Worlds" ],
         [ "Core Rulebook" ],
         [ "Archetypes" ]
     ],
@@ -185,7 +185,12 @@
         {
             "name": "Themes",
             "radio": true,
-            "classes": [ "Ace Pilot", "Bounty Hunter", "Icon", "Mercenary", "Outlaw", "Priest", "Scholar", "Spacefarer", "Xenoseeker", "Themeless" ]
+            "classes": [ "Themeless", "Ace Pilot", "Bounty Hunter", "Icon", "Mercenary", "Outlaw", "Priest", "Scholar", "Spacefarer", "Xenoseeker" ]
+        },
+        {
+            "name": "Pact Worlds",
+            "radio": true,
+            "classes": [ "Solar Disciple", "Roboticist", "Wild Warden", "Corporate Agent", "Gladiator", "Cyberborn", "Tempered Pilgrim", "Space Pirate", "Death-touched", "Dragonblood", "Dream Prophet", "Biotechnician", "Xenoarchaeologist", "Cultist" ]
         },
         {
             "name": "Core Rulebook",
@@ -237,42 +242,123 @@
         },
 
         {
+            "name": "Themeless",
+            "isTheme": true
+        },
+        {
             "name": "Ace Pilot",
+            "isTheme": true,
             "skills": [ "Piloting" ]
         },
         {
             "name": "Bounty Hunter",
+            "isTheme": true,
             "skills": [ "Survival" ]
         },
         {
             "name": "Icon",
+            "isTheme": true,
             "skills": [ "Culture" ]
         },
         {
             "name": "Mercenary",
+            "isTheme": true,
             "skills": [ "Athletics" ]
         },
         {
             "name": "Outlaw",
+            "isTheme": true,
             "skills": [ "Sleight of Hand" ]
         },
         {
             "name": "Priest",
+            "isTheme": true,
             "skills": [ "Mysticism" ]
         },
         {
-            "name": "Scholar"
+            "name": "Scholar",
+            "isTheme": true
         },
         {
             "name": "Spacefarer",
+            "isTheme": true,
             "skills": [ "Physical Science" ]
         },
         {
             "name": "Xenoseeker",
+            "isTheme": true,
             "skills": [ "Life Science" ]
         },
+
         {
-            "name": "Themeless"
+            "name": "Solar Disciple",
+            "isTheme": true,
+            "skills": [ "Perception" ]
+        },
+        {
+            "name": "Roboticist",
+            "isTheme": true,
+            "skills": [ "Computers" ]
+        },
+        {
+            "name": "Wild Warden",
+            "isTheme": true,
+            "skills": [ "Survival" ]
+        },
+        {
+            "name": "Corporate Agent",
+            "isTheme": true,
+            "skills": [ "Diplomacy" ]
+        },
+        {
+            "name": "Gladiator",
+            "isTheme": true,
+            "skills": [ "Intimidate" ]
+        },
+        {
+            "name": "Cyberborn",
+            "isTheme": true,
+            "skills": [ "Computers" ]
+        },
+        {
+            "name": "Tempered Pilgrim",
+            "isTheme": true,
+            "skills": [ "Culture" ]
+        },
+        {
+            "name": "Space Pirate",
+            "isTheme": true,
+            "skills": [ "Bluff" ]
+        },
+        {
+            "name": "Death-touched",
+            "isTheme": true,
+            "skills": [ "Perception" ]
+        },
+        {
+            "name": "Dragonblood",
+            "isTheme": true,
+            "skills": [ "Culture" ]
+        },
+        {
+            "name": "Dream Prophet",
+            "isTheme": true,
+            "skills": [ "Mysticism" ]
+        },
+        {
+            "name": "Biotechnician",
+            "isTheme": true,
+            "skills": [ "Medicine" ]
+        },
+        {
+            "name": "Xenoarchaeologist",
+            "isTheme": true,
+            "skills": [ "Engineering" ]
+        },
+        {
+            "name": "Cultist",
+            "isTheme": true,
+            "skills": [ "Disguise" ]
         },
 
         {
