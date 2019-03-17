@@ -993,7 +993,7 @@
             "variants": [
                 { "name": "Sorcerer", "pages": [ ] },
                 { "name": "Crossblooded Sorcerer", "pages": [ "sorcerer/crossblooded" ] },
-                { "name": "False Priest", "pages": [ "sorcerer/falsepriest" ] },
+                { "name": "False Priest", "pages": [ "sorcerer/falsepriest" ], "skills": [ "Knowledge (religion)", "Perform" ], "notSkills": [ "Appraise", "Fly" ] },
                 { "name": "Seeker", "pages": [ "sorcerer/seeker" ], "skills": [ "Disarm Traps", "Locate Traps" ], "plusHalfLevel": [ "Disarm Traps", "Locate Traps" ] },
                 { "name": "Tattooed Sorcerer", "pages": [ "sorcerer/tattooed" ] },
                 { "name": "Wildblooded Sorcerer", "pages": [ "sorcerer/wildblooded" ] }
