@@ -1,0 +1,36 @@
+{
+    "game": "pathfinder2",
+    "name": "Pathfinder 2e",
+
+    "skills": [
+        { "name": "Acrobatics", "ability": "DEX", "acp": true },
+        { "name": "Arcana", "ability": "INT" },
+        { "name": "Athletics", "ability": "STR", "acp": true },
+        { "name": "Crafting", "ability": "INT" },
+        { "name": "Deception", "ability": "CHA" },
+        { "name": "Diplomacy", "ability": "CHA" },
+        { "name": "Intimidation", "ability": "CHA" },
+        { "name": "Medicine", "ability": "WIS" },
+        { "name": "Nature", "ability": "WIS" },
+        { "name": "Occultism", "ability": "INT" },
+        { "name": "Performance", "ability": "CHA" },
+        { "name": "Religion", "ability": "WIS" },
+        { "name": "Society", "ability": "INT" },
+        { "name": "Stealth", "ability": "DEX" , "acp": true },
+        { "name": "Survival", "ability": "WIS" },
+        { "name": "Thievery", "ability": "DEX", "acp": true },
+
+        { "name": "Lore (...)", "ability": "INT" }
+    ],
+
+    "coreSkills": [
+        "Acrobatics", "Arcana", "Athletics", "Crafting", "Deception", "Diplomacy", "Intimidation", "Medicine",
+        "Nature", "Occultism", "Performance", "Religion", "Society", "Stealth", "Survival", "Thievery"
+    ],
+
+    "knowledgeSkills": [],
+
+    "books": [],
+    "classes": [],
+    "layout": []
+}
